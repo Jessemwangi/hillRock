@@ -50,10 +50,11 @@ function Whychoose() {
                                     </h3>
                                 </div>
                                 <p className="why-choose-two__text">
-                                    Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
-                                    tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus
-                                    augue, commodo ornare felis non, eleifend molestie metus pharetra
-                                    eleifend.
+                                Hillrock Resource offers access to high-level HR expertise, labour relations,
+increased efficiency, and on-demand support to businesses of all shapes and sizes.
+Our outsource HR function comes with complete, compliant, and cost-effective
+HR support system behind your business backed by the technology, experience,
+and legal know-how you need for total peace of mind..
                                 </p>
                                 <ul className="why-choose-two__feature   ">
                                     <li>

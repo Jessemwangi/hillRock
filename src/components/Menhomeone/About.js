@@ -57,33 +57,32 @@ function About() {
                         <div className="col-xl-6 wow fadeInRight" data-wow-delay="300ms">
                             <div className="about-one__content">
                                 <div className="sec-title text-left">
-                                    <h6 className="sec-title__tagline">about our agency</h6>
+                                    <h6 className="sec-title__tagline">about our Service</h6>
                                     <h3 className="sec-title__title">
                                         Reliable &amp; Cost Efficiant <br />
-                                        Recruitment Agency
+                                        Recruitment Services
                                     </h3>
                                 </div>
                                 <p className="about-one__content__text">
-                                    Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod
-                                    tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus
-                                    augue, commodo ornare felis non, eleifend molestie metus pharetra
-                                    eleifend.
+                                You’ll have a compliant and productive workplace with best-practice HR
+management and policies in place. We’ll work with you to put together a plan and
+support you every step of the way. Safety controls.
                                 </p>
                                 <div className="row">
                                     <div className="col-md-6">
                                         <ul className="about-one__content__list">
                                             <li>
                                                 <span className="fa fa-check-circle" />
-                                                Understand Your Needs
+                                                Payroll Administration
                                             </li>
                                             <li>
                                                 <span className="fa fa-check-circle" />
-                                                Find the Perfect Candidate
+                                                Expert HR outsource services
                                             </li>
                                         </ul>
                                         <div className="about-one__content__quote">
-                                            Pathway for both employer and employee. So they highly efficient
-                                            manufactured products.
+                                        Rely on our professional payroll experts to process your employee’s benefits
+including salaries, bonuses and filing statutory deductions.
                                         </div>
                                         <div className="about-one__content__author">
                                             <div className="about-one__content__author__thumb">
