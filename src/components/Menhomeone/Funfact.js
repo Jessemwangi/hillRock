@@ -37,7 +37,7 @@ function Funfact() {
             };
         };
         updateCounter();
-    }, []);
+    }, [counts, finalCounts]);
 
     return (
         <div>

@@ -84,7 +84,7 @@ function Benefit() {
                                 <button title="Close (Esc)" type="button" className="mfp-close" onClick={() => setshow(false)}>
                                     ×
                                 </button>
-                                <iframe className="mfp-iframe" src="//www.youtube.com/embed/h9MbznbxlLc?autoplay=1" frameBorder={0} allowFullScreen="" />
+                                <iframe className="mfp-iframe" src="//www.youtube.com/embed/h9MbznbxlLc?autoplay=1" frameBorder={0} allowFullScreen="" title='iframe1' />
                             </div>
                         </div>
                         <div className="mfp-preloader">Loading...</div>

@@ -36,7 +36,7 @@ function About() {
             };
         };
         updateCounter();
-    }, []);
+    }, [counts, finalCounts]);
 
     return (
         <div>
