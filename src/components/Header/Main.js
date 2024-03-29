@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Logo from '../../assets/images/logo-dark.png'
-import Logo1 from '../../assets/images/logo-light.png'
+import Logo1 from '../../assets/images/logo-dark.png'
 import WOW from 'wowjs'
 
 function Main() {
@@ -17,6 +17,7 @@ function Main() {
     const location = useLocation()
     const path = location.pathname
     const [menu, setmenu] = useState({})
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const activeMenu = () => {
         if (path === "/" || path === "/") {
             setmenu({ home: true })
@@ -78,7 +79,7 @@ function Main() {
                             </li>
                             <li className="topbar-one__info__item">
                                 <i className="fas fa-map-marker" />
-                                <Link to="tel:+92(8800)-6930">30 Broklyn Golden Street. New York</Link>
+                                <Link to="tel:+92(8800)-6930">30 Usain Gishu, Eldoret. Kenya</Link>
                             </li>
                         </ul>
                         <div className="topbar-one__right">
@@ -121,7 +122,7 @@ function Main() {
                 <div className="main-header__inner">
                     <div className="main-header__logo">
                         <Link to="/">
-                            <img src={Logo} alt="Hiredots HTML" width={125} />
+                            <img src={require('../../assets/images/logo-dark.png')} alt="Hiredots HTML" width={125} />
                         </Link>
                     </div>
                     <Link to="#" className="search-toggler main-header__search" onClick={() => setsearch(true)}>
