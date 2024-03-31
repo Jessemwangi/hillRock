@@ -40,8 +40,8 @@ function Contactform() {
                                             <div className="contact-one__info__content">
                                                 <p className="contact-one__info__text">Write Email </p>
                                                 <h4 className="contact-one__info__title">
-                                                    <Link to="mailto:needhelp@company.com">
-                                                        needhelp@company.com
+                                                    <Link to="mailto:info@hillrockresource.co.ke">
+                                                        info@hillrockresource.co.ke
                                                     </Link>
                                                 </h4>
                                             </div>

@@ -115,7 +115,7 @@ function Main() {
                                     <ul className="list-unstyled footer-widget__info">
                                         <li>
                                             <i className="fas fa-envelope" />{" "}
-                                            <Link to="mailto:needhelp@company.com">needhelp@company.com</Link>
+                                            <Link to="mailto:info@hillrockresource.co.ke">info@hillrockresource.co.ke</Link>
                                         </li>
                                         <li>
                                             <i className="fas fa-phone-square" />{" "}

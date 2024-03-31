@@ -75,7 +75,7 @@ function Main() {
                         <ul className="list-unstyled topbar-one__info">
                             <li className="topbar-one__info__item">
                                 <i className="fas fa-envelope" />
-                                <Link to="mailto:needhelp@company.com">needhelp@company.com</Link>
+                                <Link to="mailto:info@hillrockresource.co.ke">info@hillrockresource.co.ke</Link>
                             </li>
                             <li className="topbar-one__info__item">
                                 <i className="fas fa-map-marker" />
