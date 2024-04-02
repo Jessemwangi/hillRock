@@ -149,8 +149,7 @@ function Main() {
                                 </Link>
                             </div>
                             <p className="main-footer__copyright">
-                                © Copyright <span className="dynamic-year" /> by Hiredots HTML
-                                Template.
+                                © Copyright <span className="dynamic-year" /> HillRock 2024.
                             </p>
                         </div>
                     </div>
