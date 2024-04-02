@@ -215,7 +215,7 @@ function Main() {
                         </nav>
                         <div className="main-header__call">
                             <i className="icon-telephone" />
-                            <Link to="tel:+9288006930">+ 92 (8800)-6930</Link>
+                            <Link to="tel:+9288006930">+254 7123 234 00</Link>
                         </div>
                         <Link to="#" className="search-toggler main-header__search" onClick={() => setsearch(true)}>
                             <i className="icon-magnifying-glass" aria-hidden="true" />

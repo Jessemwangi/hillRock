@@ -236,7 +236,7 @@ function Main() {
                         </nav>
                         <div className="main-header__call">
                             <i className="icon-telephone" />
-                            <Link to="tel:+9288006930">+ 92 (8800)-6930</Link>
+                            <Link to="tel:+9288006930">+254 7123 234 00</Link>
                         </div>
                     </div>
                     <div className="main-header__link">

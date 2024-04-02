@@ -119,7 +119,7 @@ function Main() {
                                         </li>
                                         <li>
                                             <i className="fas fa-phone-square" />{" "}
-                                            <Link to="tel:+92(8800)-6930">+ 92 ( 8800 ) - 6930</Link>
+                                            <Link to="tel:+92(8800)-6930">+254 7123 000</Link>
                                         </li>
                                     </ul>
                                 </div>

@@ -25,7 +25,7 @@ function Ctatwo() {
                                     <img src={Ctasubtitle} alt="hiredots"/>
                                 </div>
                                 <h2 className="cta-two__title">
-                                    Hire Your Next Candidate on Hiredots
+                                Calm Solutions: Simplifying Payroll & HR
                                 </h2>
                                 <Link to="/about" className="hiredots-btn">
                                     <span>Discover more</span>

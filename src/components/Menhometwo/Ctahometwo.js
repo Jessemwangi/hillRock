@@ -9,8 +9,8 @@ function Ctahometwo() {
                 <div className="cta-three__bg jarallax" data-jarallax="" data-speed="0.3" style={{ backgroundImage:`url(${Bgimg})` }}/>
                 <div className="container">
                     <h2 className="cta-three__title"> 
-                        Hiredots Trusted Staffing &amp; <br />
-                        Recruitment Agency
+                    HillRock Trusted Consultant &amp; <br />
+                            HR Services
                     </h2>
                     <div className="cta-three__btns">
                         <Link to="/services" className="hiredots-btn cta-three__link">

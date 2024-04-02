@@ -12,7 +12,7 @@ const services = [
         category: "Management",
         title: "HR Consulting",
         link: "/service-consulting",
-        text: "Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod"
+        text: "You can rest easy knowing that if an employment-related claim is made against your business,"
     },
     {
         image: Service2,
@@ -20,7 +20,7 @@ const services = [
         category: "Resources",
         title: "Tech Resources",
         link: "/service-resources",
-        text: "Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod"
+        text: "Enjoy paperless control over all your employee records from recruitment to retirement with our HR software and HR services for businesses."
     },
     {
         image: Service3,
@@ -28,7 +28,7 @@ const services = [
         category: "Solution",
         title: "Staffing Solution",
         link: "/service-resources",
-        text: "Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod"
+        text: "We understand your needs and connect you with candidates that align with your business goals."
     }
 ];
 

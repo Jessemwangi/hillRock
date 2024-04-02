@@ -13,7 +13,8 @@ function Cta() {
                     <div className="row">
                         <div className="col-md-8 col-xl-8 wow fadeInLeft" data-wow-delay="200ms">
                             <h2 className="cta-one__title">
-                                Hiredots Trusted Staffing &amp; Recruitment Agency
+                            HillRock Trusted Consultant &amp; <br />
+                            HR Services
                             </h2>
                         </div>
                         <div className="col-md-4 col-xl-4 text-end wow fadeInRight"
@@ -36,7 +37,7 @@ function Cta() {
                         <div className="col-lg-10 col-xl-8 wow fadeInUp">
                             <div className="cta-one__content">
                                 <h3 className="cta-one__content__title">
-                                    Hiredots Working Advantages
+                                    What sets us ahead!
                                 </h3>
                                 <div className="cta-one__content__list">
                                     <div className="cta-one__content__list__icon">
@@ -47,8 +48,8 @@ function Cta() {
                                         Resource
                                     </h3>
                                     <p className="cta-one__content__list__info">
-                                        Sed non odio non elit porttit sit tincidunt.
-                                        <br /> Donec fermentum, elit sit amet
+                                   Connect you with candidates.
+                                        <br /> that align with your business goals
                                     </p>
                                 </div>
                                 <div className="cta-one__content__list cta-one__content__list--bg">
@@ -60,8 +61,8 @@ function Cta() {
                                         Time &amp; Money
                                     </h3>
                                     <p className="cta-one__content__list__info">
-                                        Sed non odio non elit porttit sit tincidunt.
-                                        <br /> Donec fermentum, elit sit amet
+                                    Rely on our professional payroll experts
+                                        <br /> Available 24/7 and are affordable.
                                     </p>
                                 </div>
                                 <div className="cta-one__content__list">
@@ -73,8 +74,8 @@ function Cta() {
                                         Team Building
                                     </h3>
                                     <p className="cta-one__content__list__info">
-                                        Sed non odio non elit porttit sit tincidunt.
-                                        <br /> Donec fermentum, elit sit amet
+                                    Build better workplaces
+                                        <br /> supported by legal frameworks.
                                     </p>
                                 </div>
                             </div>
