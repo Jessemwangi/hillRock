@@ -12,6 +12,7 @@ import Ctatwo from '../Menhomeone/Ctatwo'
 import Testimonial from '../Menhomeone/Testimonial'
 import Blog from '../Menhomeone/Blog'
 import Footer from '../Footer/Main'
+import WorkProcess from '../Menhometwo/WorkProcess'
 
 function Main() {
     return (
@@ -21,6 +22,7 @@ function Main() {
                 <Sliderone />
                 <Feature />
                 <About />
+                <WorkProcess />
                 <Funfact />
                 <Service />
                 <Cta />

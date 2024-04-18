@@ -19,7 +19,7 @@ function Ctatwo() {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7 wow fadeInLeft" data-wow-delay="200ms">
+                        <div className="col-lg-7 wow fadeInLeft" data-wow-delay="150ms">
                             <div className="cta-two__content">
                                 <div className="cta-two__sub-title">
                                     <img src={Ctasubtitle} alt="hiredots"/>

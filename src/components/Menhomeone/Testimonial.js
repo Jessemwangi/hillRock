@@ -45,8 +45,9 @@ function Testimonial() {
                                     </h3>
                                 </div>
                                 <p className="testimonials-one__text">
-                                    Quisque commodo, magna simply free text available nec accu man
-                                    euismod tellus mi ornare enim.
+                                At Hillrock Resource Ltd, our clients' satisfaction is our top priority. We take pride in delivering high-quality HR and consulting services tailored to
+                                 meet the unique needs of each business we partner with. 
+                                But don't just take our word for it—here's what our clients have to say about their experience working with us.
                                 </p>
                                 <div className="testimonials-one__dots" />
                             </div>
@@ -55,7 +56,7 @@ function Testimonial() {
                             <div className="hiredots-stretch-element-inside-column">
                                 <Slider className='testimonials-one' {...Test} slidesToShow={2} slidesToScroll={2} margin={30} arrows={false}>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -70,9 +71,8 @@ function Testimonial() {
                                                             <i className="fa fa-star" />
                                                         </div>
                                                         <div className="testimonials-card__content">
-                                                            Lorem ipsum is simply free text dolor sit amet,
-                                                            consectetur adipisicing elit, sed do incididunt ut
-                                                            labore et dolore magna aliqua.
+                                                        "Working with HILLROCK has been a game-changer for our business. 
+                                                        Their expertise and dedication have helped us streamline our HR processes and improve employee engagement."
                                                         </div>
                                                         <div className="testimonials-card__author">
                                                             <div className="testimonials-card__icon">
@@ -80,10 +80,10 @@ function Testimonial() {
                                                             </div>
                                                             <div className="testimonials-card__autor__info">
                                                                 <h3 className="testimonials-card__name">
-                                                                    Kevin martin
+                                                                    Hon. Robert James R
                                                                 </h3>
                                                                 <p className="testimonials-card__designation">
-                                                                    Market Manager
+                                                                Senator
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -108,9 +108,8 @@ function Testimonial() {
                                                             <i className="fa fa-star" />
                                                         </div>
                                                         <div className="testimonials-card__content">
-                                                            Lorem ipsum is simply free text dolor sit amet,
-                                                            consectetur adipisicing elit, sed do incididunt ut
-                                                            labore et dolore magna aliqua.
+                                                        "The executive recruitment services provided by HILLROCK exceeded our expectations. 
+                                                        They found us the perfect candidate who has made a significant impact on our organization."
                                                         </div>
                                                         <div className="testimonials-card__author">
                                                             <div className="testimonials-card__icon">
@@ -118,7 +117,7 @@ function Testimonial() {
                                                             </div>
                                                             <div className="testimonials-card__autor__info">
                                                                 <h3 className="testimonials-card__name">
-                                                                    Sarah albert
+                                                                   Ms. Sarah Albert
                                                                 </h3>
                                                                 <p className="testimonials-card__designation">
                                                                     Co Founder

@@ -6,7 +6,7 @@ function Ctahometwo() {
     return (
         <>
             <section className="cta-three cta-three--home">
-                <div className="cta-three__bg jarallax" data-jarallax="" data-speed="0.3" style={{ backgroundImage:`url(${Bgimg})` }}/>
+                <div className="cta-three__bg jarallax" data-jarallax="" data-speed="0.5" style={{ backgroundImage:`url(${Bgimg})` }}/>
                 <div className="container">
                     <h2 className="cta-three__title"> 
                     HillRock Trusted Consultant &amp; <br />

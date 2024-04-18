@@ -19,7 +19,7 @@ function WorkProcess() {
                         </div>
                     </div>
                     <div className="row gutter-y-30">
-                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="90ms">
                             <div className="work-process-one__item text-center">
                                 <div className="work-process-one__item__shape" style={{ backgroundImage:`url(${Bgimg})` }}/>
                                 <div className="work-process-one__item__icon-bg" /> 
