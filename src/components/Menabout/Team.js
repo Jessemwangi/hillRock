@@ -21,7 +21,7 @@ function Team() {
                             <div className="team-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
                                 <div className="team-card__image">
                                     <div className="team-card__image__bg" />
-                                    <img src={Team1} alt="Mike Hardson" />
+                                    <img src={Team4} alt="Mike Hardson" />
                                     <div className="team-card__hover">
                                         <div className="team-card__social">
                                             <i className="fa fa-share-alt" />
@@ -58,7 +58,7 @@ function Team() {
                             <div className="team-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
                                 <div className="team-card__image">
                                     <div className="team-card__image__bg" />
-                                    <img src={Team2} alt="aleesha brown" />
+                                    <img src={Team1} alt="aleesha brown" />
                                     <div className="team-card__hover">
                                         <div className="team-card__social">
                                             <i className="fa fa-share-alt" />
@@ -85,9 +85,9 @@ function Team() {
                                 </div>
                                 <div className="team-card__content">
                                     <h3 className="team-card__title">
-                                        <Link to="/team-details">aleesha brown</Link>
+                                        <Link to="/team-details">Jesse</Link>
                                     </h3>
-                                    <p className="team-card__designation">Director</p>
+                                    <p className="team-card__designation">Developer</p>
                                 </div>
                             </div>
                         </div>
