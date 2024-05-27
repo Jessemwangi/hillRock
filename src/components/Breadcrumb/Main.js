@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Bredimg from '../../assets/images/shapes/page-header-shape.png'
 
-function Main({ subtitle, title }) {
+function Main({ subtitle, title,cssclass='page-header__bg' }) {
     return (
         <>
             <section className="page-header">
-                <div className="page-header__bg" />
+                <div className={cssclass} />
                 <div className="page-header__shape">
                 <img src={Bredimg} alt="hiredots"/>
                 </div>

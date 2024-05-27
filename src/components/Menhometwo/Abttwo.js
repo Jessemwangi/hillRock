@@ -14,7 +14,7 @@ function Abttwo() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6">
-                            <div className="about-two__image wow fadeInLeft" data-wow-delay="300ms">
+                            <div className="about-two__image wow fadeInLeft" data-wow-delay="100ms">
                                 <div className="about-two__image-one">
                                     <img src={Abtimg1} alt="hiredots" />
                                 </div>
@@ -27,7 +27,7 @@ function Abttwo() {
                                 <img className="about-two__image__shape" src={Abtshape} alt="hiredots"/>
                             </div>
                         </div>
-                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="300ms">
+                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
                             <div className="about-two__content">
                                 <div className="sec-title text-left">
                                     <h6 className="sec-title__tagline">about our agency</h6>

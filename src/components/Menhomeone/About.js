@@ -4,7 +4,7 @@ import About1 from '../../assets/images/resources/about-1-1.jpg'
 import Aboutshape1 from '../../assets/images/resources/about-1-shape-1.png'
 import Aboutblubimg from '../../assets/images/resources/about-1-bulb.png'
 import Aboutauthor from '../../assets/images/resources/about-1-author.jpg'
-import Aboutsign from '../../assets/images/resources/about-sign.png'
+import Aboutsign from '../../assets/images/backgrounds/sign.png'
 
 function About() {
     const initialCounts = {
@@ -44,7 +44,7 @@ function About() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6">
-                            <div className="about-one__image wow fadeInLeft" data-wow-delay="300ms">
+                            <div className="about-one__image wow fadeInLeft" data-wow-delay="100ms">
                                 <div className="about-one__image-one">
                                     <img src={About1} alt="hiredots" />
                                     <img className="about-one__image-one__shape" src={Aboutshape1} alt="hiredots" />
@@ -54,7 +54,7 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="300ms">
+                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
                             <div className="about-one__content">
                                 <div className="sec-title text-left">
                                     <h6 className="sec-title__tagline">about our Service</h6>
@@ -90,7 +90,7 @@ including salaries, bonuses and filing statutory deductions.
                                             </div>
                                             <div className="about-one__content__author__meta">
                                                 <img src={Aboutsign} alt="hiredots" />
-                                                Co Founder
+                                                Certified
                                             </div>
                                         </div>
                                     </div>

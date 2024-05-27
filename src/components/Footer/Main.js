@@ -42,8 +42,8 @@ function Main() {
                                         <img src={Logo} width={125} alt="Hiredots HTML Template"/>
                                     </Link>
                                     <p className="footer-widget__text">
-                                        Lorem ipsum dolor sit amet, consect etur adi pisicing elit <br />
-                                        sed do eiusmod tempor incididunt ut labore.
+                                    Your Trusted Partner in tailored comprehensive HR  <br />
+                                    and Business Consulting for businesses of all sizes.
                                     </p>
                                     <div className="footer-widget__author">
                                         <div className="footer-widget__author__img">
@@ -110,7 +110,7 @@ function Main() {
                                 <div className="footer-widget footer-widget--time">
                                     <h2 className="footer-widget__title">Contact</h2>
                                     <p className="footer-widget__text">
-                                        66 Road Broklyn Street, 600 <br /> New York, USA
+                                        East African Company <br /> Kenya
                                     </p>
                                     <ul className="list-unstyled footer-widget__info">
                                         <li>
@@ -119,7 +119,7 @@ function Main() {
                                         </li>
                                         <li>
                                             <i className="fas fa-phone-square" />{" "}
-                                            <Link to="tel:+92(8800)-6930">+254 7123 000</Link>
+                                            <Link to="tel:+254(7123)-000">+254 7123 000</Link>
                                         </li>
                                     </ul>
                                 </div>

@@ -14,12 +14,13 @@ function Main() {
         <>
             <div className="page-wrapper">
                 <Header />
-                <Breadcrumb subtitle="Home" title="About" />
+                <Breadcrumb subtitle="Home" title="About" cssclass='page-header__bg_about' />
                 <Whychoose />
                 <Testimonial />
                 <Ctathree />
                 <Benefit />
-                <Team />
+                {/* will enable once agreed  */}
+                {/* <Team /> */}
                 <Clienttwo />
                 <Footer />
             </div>

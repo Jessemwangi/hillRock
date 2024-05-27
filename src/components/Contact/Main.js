@@ -10,7 +10,7 @@ function Main() {
     <div>
         <div className="page-wrapper">
             <Header/>
-            <Breadcrumb subtitle="Home" title="Contact" />
+            <Breadcrumb subtitle="Home" title="Contact" cssclass='page-header__bg_contact'/>
             <Contactform/>
             <Map />
             <Footer/>

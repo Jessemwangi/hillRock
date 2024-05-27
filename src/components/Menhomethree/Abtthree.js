@@ -16,7 +16,7 @@ function Abtthree() {
                 'Lorem Ipsum gene on the tend to repeat.'
             ],
             callText: 'Call to Questions',
-            callNumber: '+92 (003) 68-0900',
+            callNumber: '+254 712 323 400',
             discoverLink: '/about'
         }
     ];

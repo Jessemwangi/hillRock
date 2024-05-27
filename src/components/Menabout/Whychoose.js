@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Chooseimg1 from '../../assets/images/resources/about-circle-1.png'
 import Chooseimg2 from '../../assets/images/resources/about-circle-2.png'
 import ChooseShape from '../../assets/images/shapes/about-circle-shape.png'
+import hr from '../../assets/images/backgrounds/shape-02.png'
 
 function Whychoose() {
 
@@ -35,7 +36,7 @@ function Whychoose() {
                                                 "forceHeight": true
                                             }'
                                         >
-                                            new human resources theme
+                                            <img src={hr} alt='hr'/>
                                         </div>
                                     </div>
                                 </div>

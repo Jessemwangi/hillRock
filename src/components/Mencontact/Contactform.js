@@ -13,13 +13,12 @@ function Contactform() {
                                     <div className="sec-title text-@@textAlign">
                                         <h6 className="sec-title__tagline">Contact us</h6>
                                         <h3 className="sec-title__title">
-                                            Feel Free to Get in Touch <br /> with Hiredots
+                                            Feel Free to Get in Touch <br /> with HillRock
                                         </h3>
                                     </div>
                                     <p className="contact-one__text">
-                                        Aliquam hendrerit a augue insuscipit. Etiam aliquam massa quis des
-                                        mauris commodo venenatis ligula commodo leez sed blandit convallis
-                                        dignissim onec vel pellentesque neque.
+                                    We value your feedback and inquiries! Whether you have questions, suggestions, or need assistance, 
+                                    we're here to help. Please use the following information to get in touch with us.
                                     </p>
                                     <ul className="list-unstyled contact-one__info">
                                         <li className="contact-one__info__item">
@@ -29,7 +28,7 @@ function Contactform() {
                                             <div className="contact-one__info__content">
                                                 <p className="contact-one__info__text">Have Question?</p>
                                                 <h4 className="contact-one__info__title">
-                                                    Free <Link to="tel:+92(8800)-8960">+23 (000)-9850</Link>
+                                                    Free <Link to="tel:+254712323400">+254 7123 000</Link>
                                                 </h4>
                                             </div>
                                         </li>
@@ -58,7 +57,28 @@ function Contactform() {
                                             </div>
                                         </li>
                                     </ul>
+                                    <div className="main-footer__bottom__inner">
+                            <div className="footer-widget__social">
+                                <Link to="https://twitter.com">
+                                    <i className="fab fa-twitter" aria-hidden="true" />
+                                    <span className="sr-only">Twitter</span>
+                                </Link>
+                                <Link to="https://facebook.com">
+                                    <i className="fab fa-facebook" aria-hidden="true" />
+                                    <span className="sr-only">Facebook</span>
+                                </Link>
+                                <Link to="https://pinterest.com">
+                                    <i className="fab fa-pinterest-p" aria-hidden="true" />
+                                    <span className="sr-only">Pinterest</span>
+                                </Link>
+                                <Link to="https://instagram.com">
+                                    <i className="fab fa-instagram" aria-hidden="true" />
+                                    <span className="sr-only">Instagram</span>
+                                </Link>
+                            </div>
+                        </div>
                                 </div>
+                       
                             </div>
                             <div className="col-lg-6">
                                 <div className="contact-one__left">
@@ -88,6 +108,7 @@ function Contactform() {
                         </div>
                     </div>
                 </div>
+                <hr></hr>
             </section>
         </div>
     )

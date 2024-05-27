@@ -58,7 +58,7 @@ function Faqpage() {
                                     <p className="faq-page__contact__number">
                                         Have Question?
                                         <br />
-                                        Free <Link to="tel:+9288009850">+92 (8800) - 9850</Link>
+                                        Free <Link to="tel:+254712323400">+254 712 323 400</Link>
                                     </p>
                                 </div>
                             </div>

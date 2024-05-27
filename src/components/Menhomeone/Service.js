@@ -47,7 +47,7 @@ function Service() {
                     <div className="row gutter-y-30">
                         {services.map((service, index) => (
                             <div key={index} className="col-md-6 col-lg-4">
-                                <div className="service-one-card service-card-two" data-wow-duration="1500ms" data-wow-delay={`${index}ms`}>
+                                <div className="service-one-card service-card-two" data-wow-duration="1000ms" data-wow-delay={`${index}ms`}>
                                     <div className="service-one-card__image">
                                         <img src={service.image} alt={service.title} />
                                     </div>

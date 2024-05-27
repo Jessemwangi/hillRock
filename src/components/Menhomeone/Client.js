@@ -44,34 +44,34 @@ function Client() {
                         <div className="col-xl-9">
                             <Slider className='client-one'{...Clientslider} slidesToShow={5} slidesToScroll={1} autoplay={true} autoplaySpeed={1000}>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                                 <div className="client-carousel__one__item">
-                                    <img src={Brandimg} alt="hiredots" />
+                                    <img src={Brandimg} alt="HillRock" />
                                 </div>
                             </Slider>
                         </div>

@@ -9,7 +9,7 @@ function Main() {
     <>
     <div className="page-wrapper">
         <Header />
-        <Breadcrumb subtitle="Home" title="History" />
+        <Breadcrumb subtitle="Home" title="History" cssclass='page-header__bg_history' />
         <Historydtls />
         <Footer />
     </div>

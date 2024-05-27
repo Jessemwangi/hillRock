@@ -15,13 +15,12 @@ function Benefit() {
                         <div className="col-lg-5">
                             <div className="features-one__left">
                                 <div className="sec-title text-left">
-                                    <h6 className="sec-title__tagline">our benefits</h6>
-                                    <h3 className="sec-title__title">Hiredots Advantages of Working</h3>
+                                    <h6 className="sec-title__tagline">Why HillRock stands out</h6>
+                                    <h3 className="sec-title__title">Elevate Your Organization with HillRock</h3>
                                 </div>
                                 <p className="features-one__sec-text">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry when an unknown printer. Lorem Ipsum is simply dummy text
-                                    of the printing and typesetting industry.
+                                "Partner with us for flexible, tailored, 
+                                and affordable HR and consulting services designed to elevate your organization to new heights of success and prosperity."
                                 </p>
                                 <div className="features-one__video">
                                     <Link to="#" 

@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import Logo from '../../assets/images/logo-dark.png'
 import Logo1 from '../../assets/images/logo-dark.png'
 import WOW from 'wowjs'
+import GenerateMenuItems from './GenerateMenuItems'
 
 function Main() {
 
@@ -19,9 +20,7 @@ function Main() {
     const [menu, setmenu] = useState({})
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const activeMenu = () => {
-        if (path === "/" || path === "/") {
-            setmenu({ home: true })
-        } else if (path === "/header" || path === "/header") {
+       if (path === "/header" || path === "/header") {
             setmenu({ header: true })
         } else if (path === "/pages" || path === "/pages") {
             setmenu({ pages: true })
@@ -79,7 +78,7 @@ function Main() {
                             </li>
                             <li className="topbar-one__info__item">
                                 <i className="fas fa-map-marker" />
-                                <Link to="tel:+92(8800)-6930">30 Usain Gishu, Eldoret. Kenya</Link>
+                                <Link to="tel:+254(7123)-000">30 Usain Gishu, Eldoret. Kenya</Link>
                             </li>
                         </ul>
                         <div className="topbar-one__right">
@@ -131,54 +130,10 @@ function Main() {
                     </Link>
                     <div className="main-header__menu">
                         <nav className="main-header__nav main-menu">
-                            <ul className="main-menu__list">
-                                <li className={`dropdown ${menu.home && "current"}`}>
-                                    <Link to="/">Home</Link>
-                                    <ul>
-                                        <li>
-                                            <Link to="/">Home One</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/hometwo">Home Two</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/homethree">Home Three</Link>
-                                        </li>
-                                        <li className={`dropdown ${menu.header && "current"}`}>
-                                            <Link to="/header">Header Styles</Link>
-                                            <ul>
-                                                <li>
-                                                    <Link to="/">Header One</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/hometwo">Header Two</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="/homethree">Header Three</Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
+                            {/* <ul className="main-menu__list">
+                                <li> <Link to="/">Home</Link></li>
                                 <li>
-                                    <Link to="/about">About</Link>
-                                </li>
-                                <li className={`dropdown ${menu.pages && "current"}`}>
-                                    <Link to="#">Pages</Link>
-                                    <ul>
-                                        <li>
-                                            <Link to="/teamdetails">Team Details</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/jobs">Jobs</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/history">History</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/faq">FAQs</Link>
-                                        </li>
-                                    </ul>
+                                <Link to="/about" style={location.pathname === "/about" ? {color:'#0d6efd'} : {}}>About</Link>
                                 </li>
                                 <li className={`dropdown ${menu.services && "current"}`}>
                                     <Link to="/services">Services</Link>
@@ -218,6 +173,9 @@ function Main() {
                                         </li>
                                     </ul>
                                 </li>
+                                <li>
+                                    <Link to="/history">History</Link>
+                                </li>
                                 <li className={`dropdown ${menu.blog && ""}`}>
                                     <Link to="/blog">News</Link>
                                     <ul>
@@ -232,11 +190,12 @@ function Main() {
                                 <li>
                                     <Link to="/contact">Contact</Link>
                                 </li>
-                            </ul>
+                            </ul> */}
+                            <GenerateMenuItems location={location}/>
                         </nav>
                         <div className="main-header__call">
                             <i className="icon-telephone" />
-                            <Link to="tel:+9288006930">+254 7123 234 00</Link>
+                            <Link to="tel:+254712323400">+254 7123 234 00</Link>
                         </div>
                     </div>
                     <div className="main-header__link">
