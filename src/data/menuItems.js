@@ -17,15 +17,15 @@ export const menuList = [
     },
     {
       id: 3,
-      path: '',
+      path: '/services',
       name: 'Services',
       icon: '',
       desc: '',
       submenu: [
         {
           id: 1,
-          path: '/services',
-          name: 'Services',
+          path: '#',
+          name: 'labour Outsourcing',
           icon: '',
           desc: ''
         },
@@ -33,6 +33,27 @@ export const menuList = [
           id: 2,
           path: '/service-consulting',
           name: 'HR Consulting',
+          icon: '',
+          desc: ''
+        },
+        {
+          id: 2,
+          path: '/service-consulting',
+          name: 'Recruitment ',
+          icon: '',
+          desc: ''
+        },
+        {
+          id: 2,
+          path: '/service-consulting',
+          name: 'Software Solutions',
+          icon: '',
+          desc: ''
+        },
+        {
+          id: 2,
+          path: '/service-consulting',
+          name: 'HR Advisory Services',
           icon: '',
           desc: ''
         },
