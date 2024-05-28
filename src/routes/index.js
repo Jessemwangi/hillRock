@@ -20,10 +20,13 @@ import ProjectDetails from '../components/ProjectDetails/Main'
 import Blog from '../components/Blog/Main'
 import BlogDetails from '../components/BlogDetails/Main'
 import Contact from '../components/Contact/Main';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 function index() {
     return (
         <>
+         <ToastContainer />
             <Routes>
                 <Route path="/" element={<Homeone />} />
                 <Route path='/hometwo' element={<HomeTwo />} />

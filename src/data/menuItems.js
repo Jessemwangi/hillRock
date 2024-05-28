@@ -64,7 +64,7 @@ export const menuList = [
       ]
     },
     {
-        id: 2,
+        id: 5,
         path: '/history',
         name: 'History',
         icon: '',
@@ -72,7 +72,7 @@ export const menuList = [
         submenu: []
       },
     {
-      id: 5,
+      id: 6,
       path: '/blog',
       name: 'News',
       icon: '',
@@ -96,7 +96,7 @@ export const menuList = [
       ]
     },
     {
-      id: 6,
+      id: 7,
       path: '/contact',
       name: 'Contact',
       icon: '',

@@ -13,11 +13,13 @@ import ContactformTwo from '../Menhometwo/ContactformTwo'
 import Blog from '../Menhomeone/Blog'
 import Clienttwo from '../Menhometwo/Clienttwo'
 import Footer from '../Footer/Main'
+import { ToastContainer } from 'react-toastify'
 
 function Main() {
     return (
         <>
             <div className="page-wrapper">
+            <ToastContainer />
                 <HeaderTwo />
                 <Slidertwo />
                 <Abttwo />
