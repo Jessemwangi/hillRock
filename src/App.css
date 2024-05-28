@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.risk_project-details {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.risk_project-details__item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.risk_project-details__item h3 {
+  margin-top: 0;
+}
+
+.risk_project-details__item p {
+  margin: 5px 0;
+}
