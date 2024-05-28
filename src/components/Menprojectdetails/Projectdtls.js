@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Projectdtls1 from '../../assets/images/project/project-details-1.jpg'
-import Projectdtls2 from '../../assets/images/project/project-detials-2.jpg'
+import Projectdtls1 from '../../assets/images/project/project_intro.png'
+import Projectdtls2 from '../../assets/images/project/success.png'
 import RiskMitigation from '../RiskRender/RiskMitigation'
 
 function Projectdtls({project}) {

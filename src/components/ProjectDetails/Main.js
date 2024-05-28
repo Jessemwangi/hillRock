@@ -15,12 +15,11 @@ function Main() {
     {
         setProject(projectData.filter(({project_id}) => project_id ==id));
     },[id])
-   console.log(project)
     return (
         <>
             <div className="page-wrapper">
                 <Header />
-                <Breadcrumb subtitle="Home" title="Projects Details" />
+                <Breadcrumb subtitle="Home" title={project[0]?.project_details?.title} cssclass='page-header__bg_project' />
                 <Projectdtls project={project} /> 
                 <Projectone />
                 <Footer />
