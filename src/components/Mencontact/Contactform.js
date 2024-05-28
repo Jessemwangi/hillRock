@@ -115,7 +115,7 @@ function Contactform() {
                                             <div className="contact-one__info__content">
                                                 <p className="contact-one__info__text">Visit Anytime</p>{" "}
                                                 <h4 className="contact-one__info__title">
-                                                    <Link to="#">30 broklyn golden street. New York</Link>
+                                                    <Link to="#">Kenyan Office Coming Soon!</Link>
                                                 </h4>
                                             </div>
                                         </li>
