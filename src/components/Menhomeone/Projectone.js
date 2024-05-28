@@ -49,7 +49,7 @@ function Projectone() {
                 <Slider className='project-one-slider' {...Projectslider} slidesToShow={3.2}>
                     {projectImages.map((projectImg, index) => (
                         <div className="item" key={index}>
-                            <div className="project-one__card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1ms">
+                            <div className="project-one__card wow fadeInUp" data-wow-duration="400ms" data-wow-delay="1ms">
                                 <div className="project-one__img">
                                     <img src={projectImg} alt="Staffing Solution" />
                                 </div>

@@ -18,13 +18,13 @@ function Cta() {
                             </h2>
                         </div>
                         <div className="col-md-4 col-xl-4 text-end wow fadeInRight"
-                            data-wow-delay="300ms" >
+                            data-wow-delay="100ms" >
                             <Link to="/about" className="hiredots-btn hiredots-btn--base">
                                 <span>Discover more</span>
                             </Link>
                         </div>
                     </div>
-                    <div className="cta-one__text wow fadeInUp" data-wow-delay="300ms">
+                    <div className="cta-one__text wow fadeInUp" data-wow-delay="100ms">
                         <p>We’re Solving Recruitment Problems Using Technology</p>
                     </div>
                     <div className="row">

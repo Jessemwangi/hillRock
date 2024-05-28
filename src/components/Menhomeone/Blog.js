@@ -74,7 +74,7 @@ function Blog() {
                     <Slider className='blog-slider' {...settings} slidesToShow={3} arrows={false}>
                         {blogData.map((blog, index) => (
                             <div className="item" key={index}>
-                                <div className="blog-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay={`${index * 100}ms`}>
+                                <div className="blog-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay={`${index * 50}ms`}>
                                     <div className="blog-card__image">
                                         <img src={blog.image} alt={blog.title} />
                                     </div>

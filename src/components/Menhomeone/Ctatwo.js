@@ -32,7 +32,7 @@ function Ctatwo() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-lg-5 wow fadeInRight" data-wow-delay="300ms">
+                        <div className="col-lg-5 wow fadeInRight" data-wow-delay="200ms">
                             <div className="cta-two__image">
                                 <img src={Ctashape3} alt="hiredots" />
                             </div>

@@ -53,7 +53,7 @@ function WorkProcess() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="80ms">
                             <div className="work-process-one__item text-center">
                                 <div className="work-process-one__item__icon-bg" />
                                 <div className="work-process-one__item__icon">

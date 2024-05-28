@@ -54,7 +54,7 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="200ms">
+                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="100ms">
                             <div className="about-one__content">
                                 <div className="sec-title text-left">
                                     <h6 className="sec-title__tagline">about our Service</h6>

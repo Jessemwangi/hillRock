@@ -46,20 +46,20 @@ export const menuList = [
       icon: '',
       desc: '',
       submenu: [
-        {
-          id: 1,
-          path: '/project',
-          name: 'Projects',
-          icon: '',
-          desc: ''
-        },
-        {
-          id: 2,
-          path: '/project-details',
-          name: 'Projects Details',
-          icon: '',
-          desc: ''
-        },
+        // {
+        //   id: 1,
+        //   path: '/project',
+        //   name: 'Projects',
+        //   icon: '',
+        //   desc: ''
+        // },
+        // {
+        //   id: 2,
+        //   path: '/project-details',
+        //   name: 'Projects Details',
+        //   icon: '',
+        //   desc: ''
+        // },
         // Add more submenu items as needed
       ]
     },

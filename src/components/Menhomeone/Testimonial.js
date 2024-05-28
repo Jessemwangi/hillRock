@@ -56,7 +56,7 @@ function Testimonial() {
                             <div className="hiredots-stretch-element-inside-column">
                                 <Slider className='testimonials-one' {...Test} slidesToShow={2} slidesToScroll={2} margin={30} arrows={false}>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="900ms" data-wow-delay="100ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
