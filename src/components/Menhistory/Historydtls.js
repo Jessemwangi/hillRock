@@ -1,5 +1,5 @@
 import React from 'react'
-import history1 from '../../assets/images/history/histroy-1.jpg'
+import history1 from '../../assets/images/history/hillrock.png'
 import history2 from '../../assets/images/history/histroy-2.jpg'
 
 function Historydtls() {
@@ -7,7 +7,7 @@ function Historydtls() {
         <>
             <div className="history">
                 <div className="container">
-                    <div className="history__sec_title wow fadeInUp" data-wow-duration="1500ms">
+                    {/* <div className="history__sec_title wow fadeInUp" data-wow-duration="1500ms">
                         <div className="sec-title text-center">
                             <h6 className="sec-title__tagline">Our history</h6>
                             <h3 className="sec-title__title">
@@ -15,19 +15,17 @@ function Historydtls() {
                                 History Line
                             </h3>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="history__inner">
                         <div className="history__card item-1 wow fadeInUp" data-wow-duration="1500ms">
                             <div className="history__card__left">
-                                <div className="history__card__year">2013</div>
+                                <div className="history__card__year">2024</div>
                                 <div className="history__card__content">
-                                    <span className="history__card__date">20 April 2013</span>
-                                    <h3 className="history__card__title">Hiredots was founded</h3>
+                                    <span className="history__card__date">20 January 2024</span>
+                                    <h3 className="history__card__title">Founded</h3>
                                     <p className="history__card__text">
-                                        There are many variations of passages of Lorem Ipsum <br />
-                                        available, but the majority have suffered alteration in <br />{" "}
-                                        some form, by injected humour, or randomised. <br />
-                                        Suspendisse sollicitudin velit sed leo.
+                                    Hillrock Resource Ltd was established in January 2024                                
+                                      
                                     </p>
                                 </div>
                             </div>
@@ -35,7 +33,7 @@ function Historydtls() {
                                 <img src={history1} alt="" />
                             </div>
                         </div>
-                        <div className="history__card item-2">
+                        {/* <div className="history__card item-2">
                             <div className="history__card__left">
                                 <div className="history__card__year">2018</div>
                                 <div className="history__card__content">
@@ -106,7 +104,7 @@ function Historydtls() {
                             <div className="history__card__img">
                                 <img src={history2} alt="" />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

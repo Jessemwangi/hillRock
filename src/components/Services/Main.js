@@ -9,7 +9,7 @@ function Main() {
         <>
             <div className="page-wrapper">
                 <Header />
-                <Breadcrumb subtitle="Home" title="Services" />
+                <Breadcrumb subtitle="Home" title="Services" cssclass='page-header__bg_services' />
                 <Servicepage />
                 <Footer />
             </div>

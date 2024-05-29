@@ -7089,7 +7089,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-image: url(../contact/page-header-bg-1-1.png);
   z-index: -1;
 }
-.page-header__bg_contact {
+.page-header__bg_services {
   position: absolute;
   top: 0;
   left: 0;
@@ -7097,7 +7097,18 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../contact/page-header-bg-1-1.png);
+  background-image: url(../images/backgrounds/service.png);
+  z-index: -1;
+}
+.page-header__bg_history {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/backgrounds/history.png);
   z-index: -1;
 }
 .page-header__bg_project {

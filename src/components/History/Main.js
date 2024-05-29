@@ -3,6 +3,7 @@ import Header from '../Header/Main'
 import Breadcrumb from '../Breadcrumb/Main'
 import Historydtls from '../Menhistory/Historydtls'
 import Footer from '../Footer/Main'
+import HistoryIntro from '../Menhistory/HistoryIntro'
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
         <Header />
         <Breadcrumb subtitle="Home" title="History" cssclass='page-header__bg_history' />
         <Historydtls />
+       <HistoryIntro/>
         <Footer />
     </div>
     </>
