@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Abtimg1 from '../../assets/images/shapes/about-3-1.png';
 import { historyData } from '../../data/history';
 
 const HistoryRoadMap = () => {
@@ -13,23 +12,6 @@ const HistoryRoadMap = () => {
             setActiveSection(sectionIndex);
         }
     };
-    const contentData = [
-        {
-            imgSrc: Abtimg1,
-            imgAlt: 'hiredots',
-            title: 'about our agency',
-            subTitle: 'Reliable & Cost Efficiant Recruitment Agency',
-            text: 'Lorem ipsum dolor sit am adipi we help you ensure everyone is in the right jobs sicing elit, sed do consulting firms Et leggings across the nation tempor.',
-            list: [
-                'Suspe ndisse suscipit sagittis leo.',
-                'Entum estibulum dignissim posuere.',
-                'Lorem Ipsum gene on the tend to repeat.'
-            ],
-            callText: 'Call to Questions',
-            callNumber: '+254 712 323 400',
-            discoverLink: '/about'
-        }
-    ];
     return (
         <>
         <section className="about-three">

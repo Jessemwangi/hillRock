@@ -5,6 +5,7 @@ import Historydtls from '../Menhistory/Historydtls'
 import Footer from '../Footer/Main'
 import HistoryIntro from '../Menhistory/HistoryIntro'
 import HistoryRoadMap from '../Menhistory/HistoryRoadMap'
+import MarketPosition from '../Menhistory/MarketPosition'
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
         <Historydtls />
        <HistoryIntro/>
        <HistoryRoadMap/>
+       <MarketPosition/>
         <Footer />
     </div>
     </>
