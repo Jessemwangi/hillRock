@@ -49,7 +49,7 @@ const HistoryRoadMap = () => {
                                         <p className="faq-one__content__text">
                                         We are excited about the future and the path we are charting. 
                                         Our roadmap is centered on continuous growth, 
-                                        innovation, and delivering unparalleled value to our clients In the coming years, we aim to <b> {'>>'}</b>
+                                        innovation, and delivering unparalleled value to our clients In the coming years, we aim to {' '}<b>  <i className="icon-right-arrow" /></b>
                                         </p>
                                     </div>
                                 </div>

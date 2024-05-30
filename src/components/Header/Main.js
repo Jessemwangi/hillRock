@@ -78,7 +78,7 @@ function Main() {
                             </li>
                             <li className="topbar-one__info__item">
                                 <i className="fas fa-map-marker" />
-                                <Link to="tel:+254(7123)-000">30 Usain Gishu, Eldoret. Kenya</Link>
+                                <Link to="tel:+254(7123)-000">East of Africa. Kenya</Link>
                             </li>
                         </ul>
                         <div className="topbar-one__right">
