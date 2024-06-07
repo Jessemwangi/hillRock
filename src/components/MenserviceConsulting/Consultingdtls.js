@@ -79,7 +79,7 @@ function Consultingdtls() {
                                    {serv.title}
                                 </h3>
                                      <div className="service-details__thumbnail">
-                                    <img src={Service1} alt="HR Consulting"/>
+                                    <img src={serv.img_src} alt="HR Consulting"/>
                                 </div>
                                 <p className="service-details__text">{serv.desc1}
                                 </p>

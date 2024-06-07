@@ -4,6 +4,12 @@ import Service3 from '../assets/images/services/sv-3.jpg';
 import Service4 from '../assets/images/services/sv-4.jpg';
 import Service5 from '../assets/images/services/sv-5.jpg';
 import Service6 from '../assets/images/services/sv-6.jpg';
+import labour_out from '../assets/images/services/labour_out.png';
+import recruit from '../assets/images/services/recruitm.png';
+import advice from '../assets/images/services/advice.png';
+import policy from '../assets/images/services/policy.png';
+import training from '../assets/images/services/training.png';
+
 
 export const services = [
     {
@@ -13,6 +19,7 @@ export const services = [
         title: 'labour outsourcing',
         text: 'Cost-effective solution to handle your staffing needs efficiently.',
         link: '#services-labour',
+        img_src:labour_out,
         id: 1,
         desc1: `Streamline your operations with our comprehensive labour outsourcing solutions`,
         desc2: `Whether you have an in-house HR team or none at all, our effective HR support ensures your business stays compliant and efficient. 
@@ -81,6 +88,7 @@ export const services = [
         title: 'Recruitment and placement',
         text: `We identify and attract top-tier talent that aligns with your company's values and goals.`,
         link: '#recruitment-labour',
+        img_src:recruit,
         id: 2,
         desc1: `Find the right talent to lead your organization to new heights.`,
         desc2: `Finding the right talent is crucial for business success. We understand your needs and connect you with candidates that align with your business goals. 
@@ -132,6 +140,7 @@ export const services = [
         title: 'Expert HR advisory & solutions',
         text: 'Navigate the complexities of HR management with our expert advisory services',
         link: '#advisory-labour',
+        img_src:advice,
         id: 3,
         desc1: `Enhance your HR practices with our expert guidance on procedures, manuals, employee relations, and surveys.`,
         desc2: ``,
@@ -181,6 +190,7 @@ export const services = [
         title: "Staffing Solution",
         text: "Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod",
         link: "#service-hydro",
+        img_src:policy,
         id: 4,
         desc1: ``,
         desc2: ``,
@@ -220,6 +230,7 @@ export const services = [
         title: "Leadership Training",
         text: "Invest in your team's growth with our customized training programs.",
         link: "#service-training",
+        img_src:training,
         id: 5,
         desc1: `Invest in your team's growth with our customized training programs.`,
         desc2: ``,
@@ -235,6 +246,7 @@ export const services = [
         title: "Staff Management",
         text: "Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod",
         link: "#service-management",
+        img_src:training,
         id: 6,
         desc1: ``,
         desc2: ``,

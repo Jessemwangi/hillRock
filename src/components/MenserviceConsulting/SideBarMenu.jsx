@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Bgimg1 from '../../assets/images/resources/service-sidebar-d-1.png'
+import Bgimg1 from '../../assets/images/services/recrut_solution.png'
 import { services } from '../../data/services';
 
 const SideBarMenu = () => {
@@ -74,7 +74,7 @@ const SideBarMenu = () => {
                     </div>
                     <div className="serice-sidebar__download">
                         <h3 className="service-sidebar__download__title">
-                            <Link to="#">Project Agreement Form</Link>
+                            <Link to="#">Contract Agreement Form</Link>
                         </h3>
                         <p className="service-sidebar__download__number">3.9KB</p>
                     </div>
