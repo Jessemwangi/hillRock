@@ -36,8 +36,8 @@ function index() {
                 <Route path="/jobs" element={<Jobs />} />
                 <Route path="/history" element={<History />} />
                 <Route path="/faq" element={<Faq />} />
-                <Route path="/services" element={<Services />} />
-                <Route path="/service-consulting" element={<ServiceConsulting />} />
+                <Route path="/services" element={<ServiceConsulting />} />
+                {/* <Route path="/service-consulting" element={<ServiceConsulting />} /> */}
                 <Route path="/service-resources" element={<ServiceResources />} />
                 <Route path="/service-hydro" element={<ServiceHydro />} />
                 <Route path="/service-program" element={<ServiceProgram />} />

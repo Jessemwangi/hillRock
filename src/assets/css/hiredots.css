@@ -5694,7 +5694,9 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-sidebar {
   background-color: var(--hiredots-gray, #f0f3f9);
   padding: 20px;
+  transition: position 0.3s ease;
 }
+
 .service-sidebar__single + .service-sidebar__single {
   margin-top: 20px;
 }

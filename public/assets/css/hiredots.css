@@ -5686,6 +5686,22 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-sidebar {
   background-color: var(--hiredots-gray, #f0f3f9);
   padding: 20px;
+  transition: position 0.3s ease;
+}
+.service-sidebar.sticky {
+  position: fixed;
+  top: 100px;  /* distance from the top when fixed */
+   /* adjust based on your layout, e.g., col-lg-4 is 1/3 of 12, so ~33% */
+  max-height: calc(100vh - 100px);  /* viewport height minus top distance */
+  overflow-y: auto;  /* enable vertical scrolling */
+}
+@media (min-width: 992px) {
+  .service-sidebar.sticky {
+      position: fixed;
+      top: 100px;  /* Adjust based on your gutter */
+      max-height: calc(100vh - 100px);
+      overflow-y: auto;
+  }
 }
 .service-sidebar__single + .service-sidebar__single {
   margin-top: 20px;

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Bgimg1 from '../../assets/images/resources/service-sidebar-d-1.png'
 import Service1 from '../../assets/images/resources/service-d-1.png'
 import Servicedtls from '../../assets/images/resources/service-details-p-1.png'
+import SideBarMenu from './SideBarMenu'
+import { services } from '../../data/services'
 
 function Consultingdtls() {
     return (
@@ -10,7 +10,8 @@ function Consultingdtls() {
             <section className="service-details">
                 <div className="container">
                     <div className="row gutter-y-30">
-                        <div className="col-md-12 col-lg-4">
+                        <SideBarMenu/>
+                        {/* <div className="col-md-12 col-lg-4">
                             <div className="service-sidebar">
                                 <div className="service-sidebar__single">
                                     <ul className="list-unstyled service-sidebar__nav">
@@ -60,31 +61,51 @@ function Consultingdtls() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-md-12 col-lg-8">
                             <div className="service-details__content">
-                                <div className="service-details__thumbnail">
+                               
+                                <h3 className="service-details__title">Expert Services</h3>
+                                <p className="service-details__text">
+                                We offer comprehensive HR and consulting services tailored to meet the unique needs of businesses of all sizes. At Hillrock Resource Ltd, 
+                                we go beyond traditional HR services by providing access to high-level HR expertise, labor relations management, 
+                                increased efficiency, and on-demand support. Our flexible, tailored, and affordable services are designed to nourish and prosper your organization,
+                                 ensuring a complete, compliant, and cost-effective HR support system. 
+                                Let us empower your business to achieve new heights of success.
+                                </p>
+                                {services.map((serv) =>
+                                <div key={serv.id} id={serv.link.replace('#', '')}>
+                                  <h3 className="service-details__lighlight">
+                                   {serv.title}
+                                </h3>
+                                     <div className="service-details__thumbnail">
                                     <img src={Service1} alt="HR Consulting"/>
                                 </div>
-                                <h3 className="service-details__title">HR Consulting</h3>
-                                <p className="service-details__text">
-                                    There are many variations of passages of lorem ipsum is simply free
-                                    text available in the market, but the majority time you put aside to
-                                    be in our office. Lorem ipsum dolor sit amet, consectetLorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
-                                    amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua.
+                                <p className="service-details__text">{serv.desc1}
                                 </p>
-                                <h3 className="service-details__lighlight">
-                                    Helping Clients to Solve Recruitments Problems
-                                </h3>
-                                <p className="service-details__text">
-                                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                                    suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
-                                    autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-                                    nihil molestiae consequatur.
+                                <p className="service-details__text">{serv.desc2}
                                 </p>
+                               
+                                <div>
+                                    {serv?.serviceList.map((list,index) =>
+                                    <div key={index}>
+                                    <h3 className='features-one__list__title' style={{fontSize:'16px'}}>
+                                        {index + 1} . {list?.title}
+                                    </h3>
+                                    <p className="service-details__text" style={{paddingLeft:'17px'}}>
+                                        {list?.servDesc}
+                                        </p>
+                                    </div>
+                                    )}
+                                </div>
+                                <p className="service-details__text">{serv.desc3}
+                                </p>
+                                <hr/>
+                                </div>
+
+                            )}
+                              
+                             
                                 <h3 className="service-details__title">Why Choose?</h3>
                                 <div className="list-unstyled service-details__process">
                                     <div className="row">

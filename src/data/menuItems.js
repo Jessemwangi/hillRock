@@ -37,26 +37,26 @@ export const menuList = [
           desc: ''
         },
         {
-          id: 2,
-          path: '/service-consulting',
-          name: 'Recruitment and placement',
-          icon: '',
-          desc: ''
-        },
-        {
           id: 3,
-          path: '/service-consulting',
-          name: 'Expert HR advisory & solutions',
+          path: '#recruitment-labour',
+          name: 'Recruitment and placement',
           icon: '',
           desc: ''
         },
         {
           id: 4,
           path: '/service-consulting',
-          name: 'Software Solutions',
+          name: 'Expert HR advisory & solutions',
           icon: '',
           desc: ''
         },
+        // {
+        //   id: 5,
+        //   path: '/service-consulting',
+        //   name: 'Software Solutions',
+        //   icon: '',
+        //   desc: ''
+        // },
        
         // Add more submenu items as needed
       ]
