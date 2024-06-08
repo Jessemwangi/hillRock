@@ -7102,6 +7102,17 @@ body.megamenu-popup-active .mobile-nav__content {
   background-image: url(../images/backgrounds/service.png);
   z-index: -1;
 }
+.page-header__bg_news {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/news/news_brd.png);
+  z-index: -1;
+}
 .page-header__bg_history {
   position: absolute;
   top: 0;

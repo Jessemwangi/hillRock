@@ -2,11 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Blogimg1 from '../../assets/images/blog/blog-l-1-3.jpg';
-import Cmntimg from '../../assets/images/blog/blog-comment-1-1.jpg';
-import Cmntimg2 from '../../assets/images/blog/blog-comment-1-2.jpg';
 import Bloglp from '../../assets/images/blog/lp-1-1.jpg';
 import Bloglp2 from '../../assets/images/blog/lp-1-2.jpg';
 import Bloglp3 from '../../assets/images/blog/lp-1-3.jpg';
+import CommentForms from './CommentForms';
+import CommentRender from './CommentRender';
+import NewsSideBar from './NewsSideBar';
 
 function Blogdtlspage() {
     // Define data for the latest posts
@@ -15,7 +16,7 @@ function Blogdtlspage() {
         { id: 2, image: Bloglp2, title: 'Get deep knowledge of your beauty', comments: 2 },
         { id: 3, image: Bloglp3, title: 'Get deep knowledge of your beauty', comments: 2 }
     ];
-
+// TODO: get id from URL, search and populate the data
     // Define data for the categories
     const categories = ['Consulting', 'Human Resource', 'Contracts', 'Direct Hiring', 'Advisers'];
 
@@ -130,127 +131,10 @@ function Blogdtlspage() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="comments-one">
-                                <h3 className="comments-one__title">2 Comments</h3>
-                                <ul className="list-unstyled comments-one__list">
-                                    <li className="comments-one__card">
-                                        <div className="comments-one__card__image">
-                                            <img src={Cmntimg} alt="" />
-                                        </div>
-                                        <div className="comments-one__card__content">
-                                            <h3 className="comments-one__card__title">Kevin martin</h3>
-                                            <p className="comments-one__card__text">
-                                                It has survived not only five centuries, but also the leap
-                                                into electronic typesetting simply fee text aunchanged. It was
-                                                popularised in the sheets containing lorem ipsum is simply
-                                                free text.
-                                            </p>
-                                            <div className="comments-one__card__btn">
-                                                <Link to="#" className="hiredots-btn comments-one__card__reply">
-                                                    <span>Reply</span>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li className="comments-one__card">
-                                        <div className="comments-one__card__image">
-                                            <img src={Cmntimg2} alt="" />
-                                        </div>
-                                        <div className="comments-one__card__content">
-                                            <h3 className="comments-one__card__title">Sarah albert</h3>
-                                            <p className="comments-one__card__text">
-                                                Mauris non dignissim purus, ac commodo diam. Donec sit amet
-                                                lacinia nulla. Aliquam quis purus in justo pulvinar tempor.
-                                                Aliquam tellus nulla, sollicitudin at euismod.
-                                            </p>
-                                            <div className="comments-one__card__btn">
-                                                <Link to="#" className="hiredots-btn comments-one__card__reply">
-                                                    <span>Reply</span>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="comments-form">
-                                <h3 className="comments-form__title">Leave a comment</h3>
-                                <form className="comments-form__form contact-form-validated form-one">
-                                    <div className="form-one__group">
-                                        <div className="form-one__control">
-                                            <input type="text" name="name" placeholder="Your name" />
-                                        </div>
-                                        <div className="form-one__control">
-                                            <input type="email" name="email" placeholder="Email address" />
-                                        </div>
-                                        <div className="form-one__control form-one__control--full">
-                                            <textarea name="message" placeholder="Write  a message" defaultValue={""} />
-                                        </div>
-                                        <div className="form-one__control form-one__control--full">
-                                            <button type="submit" className="hiredots-btn hiredots-btn--base">
-                                                <span>Submit comment</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <div className="result" />
-                            </div>
+                            <CommentRender/>
+                            <CommentForms/>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="sidebar">
-                                <aside className="widget-area">
-                                    <div className="sidebar__single sidebar__search-wrap">
-                                        <form action="#" className="sidebar__search">
-                                            <input type="text" placeholder="Search here" />
-                                            <button type="submit" aria-label="search submit">
-                                                <span>
-                                                    <i className="icon-magnifying-glass" />
-                                                </span>
-                                            </button>
-                                        </form>
-                                    </div>
-                                    <div className="sidebar__single">
-                                        <h4 className="sidebar__title">Latest posts</h4>
-                                        <ul className="sidebar__posts list-unstyled">
-                                            {latestPosts.map(post => (
-                                                <li key={post.id} className="sidebar__posts__item">
-                                                    <div className="sidebar__posts__image">
-                                                        <img src={post.image} alt="hiredots" />
-                                                    </div>
-                                                    <div className="sidebar__posts__content">
-                                                        <p className="sidebar__posts__meta">
-                                                            <i className="fa fa-comments" />{post.comments} Comments
-                                                        </p>
-                                                        <h4 className="sidebar__posts__title">
-                                                            <Link to="/blog-details">{post.title}</Link>
-                                                        </h4>
-                                                    </div>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <div className="sidebar__single">
-                                        <h4 className="sidebar__title">Categories</h4>
-                                        <ul className="sidebar__categories list-unstyled">
-                                            {categories.map((category, index) => (
-                                                <li key={index}>
-                                                    <Link to="/blog">{category}</Link>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                    <div className="sidebar__single">
-                                        <h4 className="sidebar__title">Tags</h4>
-                                        <div className="sidebar__tags">
-                                            <Link to="/blog">Consulting</Link>
-                                            <Link to="/blog">Contract</Link>
-                                            <Link to="/blog">Hiring</Link>
-                                            <Link to="/blog">Human resource</Link>
-                                            <Link to="/blog">Adviser</Link>
-                                        </div>
-                                    </div>
-                                </aside>
-                            </div>
-                        </div>
+                        <NewsSideBar/>
                     </div>
                 </div>
             </section>

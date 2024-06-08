@@ -45,8 +45,8 @@ function index() {
                 <Route path="/service-management" element={<ServiceManagement />} />
                 <Route path="/project" element={<Project />} />
                 <Route path="/project-details/:id" element={<ProjectDetails />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/blog-details" element={<BlogDetails />} />
+                <Route path="/news" element={<Blog />} />
+                <Route path="/news-details/:id" element={<BlogDetails />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
         </>

@@ -7,6 +7,7 @@ import Blog3 from '../../assets/images/blog/blog-1-3.jpg';
 import Blog4 from '../../assets/images/blog/blog-1-4.jpg';
 import Blog5 from '../../assets/images/blog/blog-1-5.jpg';
 import Blog6 from '../../assets/images/blog/blog-1-6.jpg';
+import { newsData } from '../../data/news';
 
 function BlogPage() {
     const blogData = [
@@ -23,34 +24,35 @@ function BlogPage() {
             <section className="blog-one blog-one--page">
                 <div className="container">
                     <div className="row gutter-y-30">
-                        {blogData.map(blog => (
+                        {newsData.map(blog => (
                             <div key={blog.id} className="col-md-6 col-lg-4">
-                                <div className="blog-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+                                <div className="blog-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="000ms">
                                     <div className="blog-card__image">
                                         <img src={blog.image} alt={blog.title} />
                                     </div>
                                     <div className="blog-card__content">
                                         <div className="blog-card__date">
-                                            <span>{blog.date}</span>
+                                        <span>{new Date(blog.date).getDate()}</span>
+                                        {new Date(blog.date).toLocaleString('default', { month: 'short' })}
                                         </div>
                                         <ul className="list-unstyled blog-card__meta">
                                             <li>
-                                                <Link to="/blog">
+                                                <Link to={`/news?cat=${blog.category}`}>
                                                     <i className="fas fa-tags" />
-                                                    Business
+                                                   {blog.category}
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link to="/blog-details">
+                                                <Link to={`/news-details/${blog.id}`}>
                                                     <i className="fa fa-comments" /> 2 Comments
                                                 </Link>
                                             </li>
                                         </ul>
                                         <h3 className="blog-card__title">
-                                            <Link to="/blog-details">{blog.title}</Link>
+                                        <Link to={`/news-details/${blog.id}`}>{blog.title}</Link>
                                         </h3>
                                         <p className="blog-card__info">{blog.info}</p>
-                                        <Link to="/blog-details" className="blog-card__link">
+                                        <Link to={`/news-details/${blog.id}`} className="blog-card__link">
                                             Read more
                                             <i className="icon-right-arrow" />
                                         </Link>

@@ -95,25 +95,25 @@ export const menuList = [
       },
     {
       id: 6,
-      path: '/blog',
+      path: '/news',
       name: 'News',
       icon: '',
       desc: '',
       submenu: [
-        {
-          id: 1,
-          path: '/blog',
-          name: 'News',
-          icon: '',
-          desc: ''
-        },
-        {
-          id: 2,
-          path: '/blog-details',
-          name: 'News Details',
-          icon: '',
-          desc: ''
-        },
+        // {
+        //   id: 1,
+        //   path: '/news',
+        //   name: 'News',
+        //   icon: '',
+        //   desc: ''
+        // },
+        // {
+        //   id: 2,
+        //   path: '/blog-details',
+        //   name: 'News Details',
+        //   icon: '',
+        //   desc: ''
+        // },
         // Add more submenu items as needed
       ]
     },
