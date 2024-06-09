@@ -31,7 +31,7 @@ const NewsSideBar = () => {
                                         <i className="fa fa-comments" />{post.comments} Comments
                                     </p>
                                     <h4 className="sidebar__posts__title">
-                                        <Link to="/blog-details">{post.title}</Link>
+                                        <Link to={`/news-details/${post.id}`}>{post.title}</Link>
                                     </h4>
                                 </div>
                             </li>
@@ -41,9 +41,9 @@ const NewsSideBar = () => {
                 <div className="sidebar__single">
                     <h4 className="sidebar__title">Categories</h4>
                     <ul className="sidebar__categories list-unstyled">
-                        {uniqueCategories.map((category, index) => (
+                        {uniqueCategories.map((cat, index) => (
                             <li key={index}>
-                                <Link to="/blog">{category}</Link>
+                                <Link to={`/news?cat=${cat}`}>{cat}</Link>
                             </li>
                         ))}
                     </ul>
