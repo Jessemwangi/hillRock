@@ -1,10 +1,9 @@
 
 import Blog1 from '../assets/images/news/trends_hr.png';
-import Blog2 from '../assets/images/blog/blog-1-2.jpg';
-import Blog3 from '../assets/images/blog/blog-1-3.jpg';
-import Blog4 from '../assets/images/blog/blog-1-4.jpg';
-import Blog5 from '../assets/images/blog/blog-1-5.jpg';
-// import Blog6 from '../assets';
+import Blog2 from '../assets/images/services/training.png';
+import Blog3 from '../assets/images/services/sv-4.jpg';
+import Blog4 from '../assets/images/services/sv-5.jpg';
+import us_image from '../assets/images/news/comment_user.png';
 
 export const newsData =
 [
@@ -19,11 +18,11 @@ export const newsData =
         "desc1": "The importance of these trends cannot be overstated. With more companies recognizing the value of a diverse and inclusive workplace, efforts to promote these values are increasing. Additionally, the integration of AI in recruitment helps in identifying the best candidates efficiently.",
         "desc2": "Companies that stay ahead of these trends will not only enhance their HR practices but also boost overall business performance. Keeping up with these changes ensures that businesses can attract and retain top talent, which is crucial in today's competitive market.",
         "commentList": [
-            { "user": "John Doe", "text": "Great insights, thank you!" },
-            { "user": "Jane Smith", "text": "Very informative article." },
-            { "user": "Charlie Davis", "text": "Very useful information." },
-            { "user": "Dana White", "text": "Thanks for the tips!" },
-            { "user": "Alice Johnson", "text": "These strategies really work!" },
+            { id:1,us_image:us_image,"user": "John Doe", "text": "Great insights, thank you!" },
+            { id:2,us_image:us_image,"user": "Jane Smith", "text": "Very informative article." },
+            { id:3,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information." },
+            { id:4,us_image:us_image,"user": "Dana White ", "text": "Thanks for the tips!" },
+            { id:5,us_image:us_image,"user": "Alice Johnson", "text": "These strategies really work!" },
         ]
     },
     {
@@ -37,9 +36,9 @@ export const newsData =
         "desc1": "By providing employees with opportunities for growth, businesses can ensure that their workforce remains engaged and motivated. A positive work culture is also vital, as it fosters collaboration and innovation.",
         "desc2": "Open communication channels allow employees to voice their opinions and feel valued. These strategies, when implemented effectively, can lead to higher productivity and lower turnover rates.",
     "commentList": [
-        { "user": "Alice Johnson", "text": "These strategies really work!" },
-        { "user": "Bob Brown", "text": "I'll definitely try these out." },
-        { "user": "Charlie Davis", "text": "Very useful information." },
+        { id:6,us_image:us_image,"user": "Alice Johnson", "text": "These strategies really work!" },
+        { id:7,us_image:us_image,"user": "Bob Brown", "text": "I'll definitely try these out." },
+        { id:8,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information." },
     ]
     
 },
@@ -54,8 +53,8 @@ export const newsData =
         "desc1": "Understanding these regulations can help businesses avoid legal issues and maintain a good reputation. It's essential to stay updated on changes to ensure all practices are compliant with the latest laws.",
         "desc2": "By implementing these compliance tips, businesses can create a fair and legal work environment. This not only protects the company from potential lawsuits but also promotes trust and reliability among employees.",
     "commentList": [
-        { "user": "Charlie Davis", "text": "Very useful information." },
-        { "user": "Dana White", "text": "Thanks for the tips!" }
+        { id:9,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information." },
+        { id:10,us_image:us_image,"user": "Dana White ", "text": "Thanks for the tips!" }
     ]
 },
     {
@@ -70,10 +69,10 @@ export const newsData =
         "desc2": "These technologies not only improve efficiency but also provide valuable data insights that can drive strategic decisions. Embracing these advancements is crucial for staying competitive in today's market.",
        
         "commentList": [
-            { "user": "Eve Black", "text": "Tech in HR is the future!" },
-            { "user": "Frank Green", "text": "AI is a game changer." },
-            { "user": "Charlie Davis", "text": "Very useful information." },
-            { "user": "Dana White", "text": "Thanks for the tips!" },
+            { id:11,us_image:us_image,"user": "Eve Black", "text": "Tech in HR is the future!" },
+            { id:12,us_image:us_image,"user": "Frank Green", "text": "AI is a game changer." },
+            { id:13,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information." },
+            { id:14,us_image:us_image,"user": "Dana White", "text": "Thanks for the tips!" },
         ]
     }
 ]

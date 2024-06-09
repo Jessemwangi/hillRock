@@ -1,36 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Bgimg from '../../assets/images/shapes/service-bg-1.jpg';
-import Service1 from '../../assets/images/services/sv-1.jpg';
-import Service2 from '../../assets/images/services/sv-2.jpg';
-import Service3 from '../../assets/images/services/sv-3.jpg';
-
-const services = [
-    {
-        image: Service1,
-        icon: "icon-consulting",
-        category: "Management",
-        title: "HR Consulting",
-        link: "/service-consulting",
-        text: "You can rest easy knowing that if an employment-related claim is made against your business,"
-    },
-    {
-        image: Service2,
-        icon: "icon-controller",
-        category: "Resources",
-        title: "Tech Resources",
-        link: "/service-resources",
-        text: "Enjoy paperless control over all your employee records from recruitment to retirement with our HR software and HR services for businesses."
-    },
-    {
-        image: Service3,
-        icon: "icon-policy",
-        category: "Solution",
-        title: "Staffing Solution",
-        link: "/service-resources",
-        text: "We understand your needs and connect you with candidates that align with your business goals."
-    }
-];
+import { HashLink as DivLink } from 'react-router-hash-link';
+import { services } from '../../data/services';
 
 function Service() {
     return (
@@ -41,11 +13,11 @@ function Service() {
                         <h6 className="sec-title__tagline">Our Service area</h6>
                         <h3 className="sec-title__title">
                             Outsourced Hiring &amp; Job <br />
-                            Rules Services
+                            Expert Hr Services
                         </h3>
                     </div>
                     <div className="row gutter-y-30">
-                        {services.map((service, index) => (
+                        {services?.slice(0,3).map((service, index) => (
                             <div key={index} className="col-md-6 col-lg-4">
                                 <div className="service-one-card service-card-two" data-wow-duration="1000ms" data-wow-delay={`${index}ms`}>
                                     <div className="service-one-card__image">
@@ -54,21 +26,23 @@ function Service() {
                                     <div className="service-one-card__content">
                                         <div className="service-one-card__icon">
                                             <i className={service.icon} />
-                                            <Link to="/services" className="service-one-card__cat">
+                                            <Link to={`/services?cat=${service.category}`} className="service-one-card__cat">
                                                 {service.category}
                                             </Link>
                                         </div>
                                         <h3 className="service-one-card__title">
-                                            <Link to={service.link}>{service.title}</Link>
+                                        <DivLink to={`/services#${service.link}`} style={{cursor:'pointer'}}>{service.title}</DivLink>
+                                            {/* <a href={`/services${service.link}`} style={{cursor:'pointer'}}>{service.title}</a> */}
                                         </h3>
                                         <p className="service-one-card__text">
                                             {service.text}
                                         </p>
                                     </div>
-                                    <Link to={service.link} className="service-one-card__link">
+                                    <a href={`/services${service.link}`} className="service-one-card__link">
+                                 
                                         Read More
                                         <i className="icon-right-arrow" />
-                                    </Link>
+                                       </a>
                                 </div>
                             </div>
                         ))}

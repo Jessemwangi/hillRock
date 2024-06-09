@@ -70,10 +70,10 @@ function Main() {
                                             <Link to="/about">About Company</Link>
                                         </li>
                                         <li>
-                                            <Link to="/team">Meet the Team</Link>
+                                            <Link to="/about">Meet the Team</Link>
                                         </li>
                                         <li>
-                                            <Link to="/blog">News &amp; Media</Link>
+                                            <Link to="/news">News &amp; Media</Link>
                                         </li>
                                         <li>
                                             <Link to="/project">Our Projects</Link>
@@ -89,19 +89,19 @@ function Main() {
                                     <h2 className="footer-widget__title">Links</h2>
                                     <ul className="list-unstyled footer-widget__links">
                                         <li>
-                                            <Link to="/about">Apply Now</Link>
+                                            <Link to="/services">Services</Link>
                                         </li>
                                         <li>
                                             <Link to="/contact">Contract to Hire</Link>
                                         </li>
                                         <li>
-                                            <Link to="/team">Direct Hire</Link>
+                                            <Link to="/about">Direct Hire</Link>
                                         </li>
                                         <li>
-                                            <Link to="/history">Executive Search</Link>
+                                            <Link to="/services">Executive Search</Link>
                                         </li>
                                         <li>
-                                            <Link to="/about">Our Solutions</Link>
+                                            <Link to="/history">History</Link>
                                         </li>
                                     </ul>
                                 </div>

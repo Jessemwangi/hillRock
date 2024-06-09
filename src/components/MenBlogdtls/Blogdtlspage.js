@@ -1,23 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
-import Blogimg1 from '../../assets/images/blog/blog-l-1-3.jpg';
-import Bloglp from '../../assets/images/blog/lp-1-1.jpg';
-import Bloglp2 from '../../assets/images/blog/lp-1-2.jpg';
-import Bloglp3 from '../../assets/images/blog/lp-1-3.jpg';
 import CommentForms from './CommentForms';
 import CommentRender from './CommentRender';
 import NewsSideBar from './NewsSideBar';
 import { newsData } from '../../data/news';
 
 function Blogdtlspage() {
-    // Define data for the latest posts
-    const latestPosts = [
-        { id: 1, image: Bloglp, title: 'Guide to HR Adviser and Clients Lessening', comments: 2 },
-        { id: 2, image: Bloglp2, title: 'Get deep knowledge of your beauty', comments: 2 },
-        { id: 3, image: Bloglp3, title: 'Get deep knowledge of your beauty', comments: 2 }
-    ];
-// TODO: get id from URL, search and populate the data
 const { id } = useParams();
 const[news,setNews] =useState([])
 
@@ -25,8 +14,6 @@ useEffect(()=>
 {
     setNews(newsData.filter(({ id: newsId }) =>newsId == id));
 },[id])
-    // Define data for the categories
-    const categories = ['Consulting', 'Human Resource', 'Contracts', 'Direct Hiring', 'Advisers'];
 
     return (
         <>{
@@ -49,13 +36,13 @@ useEffect(()=>
                                         </div>
                                         <ul className="list-unstyled blog-card__meta">
                                             <li>
-                                                <Link to="/blog">
+                                                <Link to={`/news?cat=${item.category}`}>
                                                     <i className="fas fa-tags" />
                                                     {item.category}
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link to="/blog">
+                                                <Link to="/news">
                                                     {" "}
                                                     <i className="fa fa-comments" /> {item?.commentList?.length || 0} Comments
                                                 </Link>
@@ -79,8 +66,8 @@ useEffect(()=>
                                     <div className="blog-details__tags">
                                         <h4 className="blog-details__tags__title">Tags</h4>
                                         <div className="sidebar__tags">
-                                            <Link to="/blog">Consulting</Link>
-                                            <Link to="/blog">Contract</Link>
+                                            <Link to={`/news?cat=Consulting`}>Consulting</Link>
+                                            <Link to={`/news?cat=Contract`}>Contract</Link>
                                         </div>
                                     </div>
                                     <div className="blog-details__social">
@@ -106,7 +93,7 @@ useEffect(()=>
                                     <li className="sidebar__posts__item">
                                         <div className="sidebar__posts__content">
                                             <h4 className="sidebar__posts__title">
-                                                <Link to="/blog-details">
+                                                <Link to="/news-details">
                                                     Does my Business Need a Director of Training?
                                                 </Link>
                                             </h4>
@@ -115,7 +102,7 @@ useEffect(()=>
                                     <li className="sidebar__posts__item">
                                         <div className="sidebar__posts__content">
                                             <h4 className="sidebar__posts__title">
-                                                <Link to="/blog-details">
+                                                <Link to="/news-details">
                                                     Get deep knowledge of your beauty
                                                 </Link>
                                             </h4>
@@ -123,8 +110,8 @@ useEffect(()=>
                                     </li>
                                 </ul>
                             </div>
-                            <CommentRender newsId={news.id}/>
-                            <CommentForms newsId={news.id}/>
+                            <CommentRender newsId={item.id} commentList={item.commentList}/>
+                            <CommentForms newsId={item.id} commentList={item.commentList}/>
                         </div>
                          
                         <NewsSideBar/>

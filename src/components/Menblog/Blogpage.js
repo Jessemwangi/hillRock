@@ -1,23 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import Blog1 from '../../assets/images/blog/blog-1-1.jpg';
-import Blog2 from '../../assets/images/blog/blog-1-2.jpg';
-import Blog3 from '../../assets/images/blog/blog-1-3.jpg';
-import Blog4 from '../../assets/images/blog/blog-1-4.jpg';
-import Blog5 from '../../assets/images/blog/blog-1-5.jpg';
-import Blog6 from '../../assets/images/blog/blog-1-6.jpg';
 import { newsData } from '../../data/news';
 
 function BlogPage() {
-    const blogData = [
-        { id: 1, image: Blog1, date: '30 Aug', title: 'Guide to HR Adviser and Clients Lessening', info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.' },
-        { id: 2, image: Blog2, date: '30 Aug', title: 'Top Skin care tips for oily skins', info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.' },
-        { id: 3, image: Blog3, date: '30 Aug', title: 'Outstanding island for winter sun', info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.' },
-        { id: 4, image: Blog4, date: '30 Aug', title: 'My supervisor didn\'t like the latest', info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.' },
-        { id: 5, image: Blog5, date: '30 Aug', title: 'We need to build it so that it scales', info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.' },
-        { id: 6, image: Blog6, date: '30 Aug', title: 'Big picture organic growth, or fast', info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.' }
-    ];
 
     return (
         <>
