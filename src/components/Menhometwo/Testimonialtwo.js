@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Slider from 'react-slick'
 import Test1 from '../../assets/images/resources/testi-2-big.jpg'
 import Testimg1 from '../../assets/images/resources/testi-2-1.jpg'
@@ -37,11 +37,9 @@ function Testimonialtwo() {
         Job: 0,
         coustmer: 0,
     };
-    const finalCounts = {
-        Employer: 697,
-        Job: 430,
-        coustmer: 800,
-    };
+    const finalCounts = useMemo(() => ({
+        count: 23,
+      }), []);
 
     const [counts, setCounts] = useState(initialCounts);
 
@@ -65,7 +63,7 @@ function Testimonialtwo() {
             };
         };
         updateCounter();
-    }, []);
+    }, [counts, finalCounts]);
 
     return (
         <>

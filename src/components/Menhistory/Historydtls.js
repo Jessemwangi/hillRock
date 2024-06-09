@@ -1,6 +1,5 @@
 import React from 'react'
 import history1 from '../../assets/images/history/hillrock.png'
-import history2 from '../../assets/images/history/histroy-2.jpg'
 
 function Historydtls() {
     return (

@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
-import Blog1 from '../../assets/images/blog/blog-1-1.jpg';
-import Blog2 from '../../assets/images/blog/blog-1-2.jpg';
-import Blog3 from '../../assets/images/blog/blog-1-3.jpg';
 import { newsData } from '../../data/news';
 
 const settings = {
@@ -32,33 +29,6 @@ const settings = {
         },
     ],
 };
-
-const blogData = [
-    {
-        image: Blog1,
-        title: 'Guide to HR Adviser and Clients Lessening',
-        date: '30 Aug',
-        category: 'Business',
-        comments: '2 Comments',
-        info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.',
-    },
-    {
-        image: Blog2,
-        title: 'Top Skin care tips for oily skins',
-        date: '30 Aug',
-        category: 'Business',
-        comments: '2 Comments',
-        info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.',
-    },
-    {
-        image: Blog3,
-        title: 'Outstanding island for winter sun',
-        date: '30 Aug',
-        category: 'Business',
-        comments: '2 Comments',
-        info: 'Lorem ipsum is simply free dolor sit amet, consect pisicing elit.',
-    },
-];
 
 function Blog() {
     return (

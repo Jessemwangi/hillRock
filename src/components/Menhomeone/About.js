@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom'
 import About1 from '../../assets/images/resources/about-1-1.jpg'
 import Aboutshape1 from '../../assets/images/resources/about-1-shape-1.png'
@@ -10,9 +10,9 @@ function About() {
     const initialCounts = {
         count: 0,
     };
-    const finalCounts = {
+    const finalCounts = useMemo(() => ({
         count: 23,
-    };
+      }), []);
 
     const [counts, setCounts] = useState(initialCounts);
 

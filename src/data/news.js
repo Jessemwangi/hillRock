@@ -20,8 +20,8 @@ export const newsData =
         "commentList": [
             { id:1,us_image:us_image,"user": "John Doe", "text": "Great insights, thank you!" },
             { id:2,us_image:us_image,"user": "Jane Smith", "text": "Very informative article." },
-            { id:3,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information." },
-            { id:4,us_image:us_image,"user": "Dana White ", "text": "Thanks for the tips!" },
+            { id:3,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information, Regards." },
+            { id:4,us_image:us_image,"user": "Roslyne Dana Johnny ", "text": "Happy to be well informed, Holla HillRocks" },
             { id:5,us_image:us_image,"user": "Alice Johnson", "text": "These strategies really work!" },
         ]
     },
@@ -54,7 +54,7 @@ export const newsData =
         "desc2": "By implementing these compliance tips, businesses can create a fair and legal work environment. This not only protects the company from potential lawsuits but also promotes trust and reliability among employees.",
     "commentList": [
         { id:9,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information." },
-        { id:10,us_image:us_image,"user": "Dana White ", "text": "Thanks for the tips!" }
+        { id:10,us_image:us_image,"user": "Christin Dana Petters ", "text": "Thanks for the tips!, It was amazing" }
     ]
 },
     {
@@ -72,7 +72,7 @@ export const newsData =
             { id:11,us_image:us_image,"user": "Eve Black", "text": "Tech in HR is the future!" },
             { id:12,us_image:us_image,"user": "Frank Green", "text": "AI is a game changer." },
             { id:13,us_image:us_image,"user": "Charlie Davis", "text": "Very useful information." },
-            { id:14,us_image:us_image,"user": "Dana White", "text": "Thanks for the tips!" },
+            { id:14,us_image:us_image,"user": "Robin Dana White", "text": "Thanks for the tips!" },
         ]
     }
 ]

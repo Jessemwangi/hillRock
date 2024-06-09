@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { newsData } from '../../data/news';
 
 const CommentRender = ({newsId, commentList}) => {
     return (

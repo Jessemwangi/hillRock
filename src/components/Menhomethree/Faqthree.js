@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Faqimg1 from '../../assets/images/resources/faq-2-img.jpg'
 
 function Faqthree() {
@@ -16,10 +16,9 @@ function Faqthree() {
     const initialCounts = {
         Working: 0,
     };
-    const finalCounts = {
-        Working: 30,
-    };
-
+    const finalCounts = useMemo(() => ({
+        count: 23,
+      }), []);
     const [counts, setCounts] = useState(initialCounts);
     
 
@@ -43,7 +42,7 @@ function Faqthree() {
             };
         };
         updateCounter();
-    }, []);
+    }, [counts, finalCounts]);
 
     const faqData = [
         {

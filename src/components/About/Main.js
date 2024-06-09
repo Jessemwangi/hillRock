@@ -5,7 +5,7 @@ import Whychoose from '../Menabout/Whychoose'
 import Testimonial from '../Menhomeone/Testimonial'
 import Ctathree from '../Menabout/Ctathree'
 import Benefit from '../Menhomethree/Benefit'
-import Team from '../Menabout/Team'
+// import Team from '../Menabout/Team'
 import Clienttwo from '../Menhometwo/Clienttwo'
 import Footer from '../Footer/Main'
 

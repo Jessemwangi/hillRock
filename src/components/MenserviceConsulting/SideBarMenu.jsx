@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Bgimg1 from '../../assets/images/services/recrut_solution.png'
 import { services } from '../../data/services';

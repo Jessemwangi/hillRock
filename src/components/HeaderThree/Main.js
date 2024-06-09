@@ -5,14 +5,14 @@ import WOW from 'wowjs'
 
 function Main() {
 
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false)
+    const [, setIsDropdownOpen] = useState(false)
     const [homeDrop, sethomeDrop] = useState(false)
     const [headerDrop, setheaderDrop] = useState(false)
     const [pageDrop, setpageDrop] = useState(false)
     const [servicesDrop, setservicesDrop] = useState(false)
     const [projectsDrop, setprojectsDrop] = useState(false)
     const [blogDrop, setblogDrop] = useState(false)
-    const [search, setsearch] = useState(false)
+    // const [search, setsearch] = useState(false)
     const location = useLocation()
     const path = location.pathname
     const [menu, setmenu] = useState({})

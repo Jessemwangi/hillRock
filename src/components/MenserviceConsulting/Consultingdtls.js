@@ -1,5 +1,4 @@
 import React from 'react'
-import Service1 from '../../assets/images/resources/service-d-1.png'
 import Servicedtls from '../../assets/images/resources/service-details-p-1.png'
 import SideBarMenu from './SideBarMenu'
 import { services } from '../../data/services'
@@ -11,58 +10,7 @@ function Consultingdtls() {
                 <div className="container">
                     <div className="row gutter-y-30">
                         <SideBarMenu/>
-                        {/* <div className="col-md-12 col-lg-4">
-                            <div className="service-sidebar">
-                                <div className="service-sidebar__single">
-                                    <ul className="list-unstyled service-sidebar__nav">
-                                        <li>
-                                            <Link to="/service-consulting">HR Consulting</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/service-resources">Tech Resources</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/service-hydro">Staffing Solution</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/service-program">Corporate Program</Link>
-                                        </li>
-                                        <li>
-                                            {" "}
-                                            <Link to="/service-training">Leadership Training</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/service-management">Staff Management</Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="service-sidebar__single ">
-                                    <div className="service-sidebar__contact background-base" style={{ backgroundImage: `url(${Bgimg1})`}}>
-                                        <h3 className="service-sidebar__contact__title"> 
-                                            Recruitment Solutions for all Businesses
-                                        </h3>
-                                        <Link className="hiredots-btn" to="/contact">
-                                            {" "}
-                                            Contact
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className="service-sidebar__single ">
-                                    <div className="service-sidebar__download background-primary">
-                                        <div className="service-sidebar__download__icon">
-                                            <i className="icon-pdf-file" />
-                                        </div>
-                                        <div className="serice-sidebar__download">
-                                            <h3 className="service-sidebar__download__title">
-                                                <Link to="#">Project Agreement Form</Link>
-                                            </h3>
-                                            <p className="service-sidebar__download__number">3.9KB</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-                        <div className="col-md-12 col-lg-8">
+                                                <div className="col-md-12 col-lg-8">
                             <div className="service-details__content">
                                
                                 <h3 className="service-details__title">Expert Services</h3>

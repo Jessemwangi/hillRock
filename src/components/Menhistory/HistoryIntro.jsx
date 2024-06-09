@@ -1,5 +1,4 @@
 import React from 'react';
-import Service1 from '../../assets/images/resources/service-d-1.png'
 import Servicedtls from '../../assets/images/history/vision.png'
 
 const HistoryIntro = () => {
