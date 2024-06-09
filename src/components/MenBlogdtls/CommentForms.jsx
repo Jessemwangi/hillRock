@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CommentForms = () => {
+const CommentForms = ({newsId}) => {
     return (
         <div className="comments-form">
         <h3 className="comments-form__title">Leave a comment</h3>

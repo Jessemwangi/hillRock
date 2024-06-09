@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Cmntimg2 from '../../assets/images/blog/blog-comment-1-2.jpg';
 import Cmntimg from '../../assets/images/blog/blog-comment-1-1.jpg';
 
-const CommentRender = () => {
+const CommentRender = ({newsId}) => {
     return (
         <div className="comments-one">
         <h3 className="comments-one__title">2 Comments</h3>
