@@ -186,7 +186,7 @@ function Main() {
                     <div className="main-header__link">
                         <div className="main-header__call">
                             <i className="icon-telephone" />
-                            <Link to="tel:+254712323400">+254 7123 234 00</Link>
+                            <Link to="tel:+254 704 605 613">+254 704 605 613</Link>
                         </div>
                         <Link className="main-header__btn" to="/contact">
                             Book Appointment

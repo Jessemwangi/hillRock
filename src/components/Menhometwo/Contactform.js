@@ -57,7 +57,7 @@ function Contactform() {
                                         <div className="contact-one__info__content">
                                             <p className="contact-one__info__text">Have Question?</p>
                                             <h4 className="contact-one__info__title">
-                                                Free <Link to="tel:+254712323400">+23 (000)-9850</Link>
+                                                Free <Link to="tel:+254 704 605 613">+23 (000)-9850</Link>
                                             </h4>
                                         </div>
                                     </li>
