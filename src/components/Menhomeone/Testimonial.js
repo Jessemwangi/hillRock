@@ -93,7 +93,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -130,7 +130,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
