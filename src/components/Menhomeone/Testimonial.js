@@ -56,7 +56,7 @@ function Testimonial() {
                             <div className="hiredots-stretch-element-inside-column">
                                 <Slider className='testimonials-one' {...Test} slidesToShow={2} slidesToScroll={2} margin={30} arrows={false}>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="900ms" data-wow-delay="100ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -130,6 +130,82 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
+                                            <div className="testimonials-card__inner">
+                                                <div className="testimonials-card__top">
+                                                    <div className="testimonials-card__image">
+                                                        <img src={Test2} alt="Kevin martin" />
+                                                    </div>
+                                                    <div className="testimonials-card__top__left">
+                                                        <div className="testimonials-card__rating">
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                        </div>
+                                                        <div className="testimonials-card__content">
+                                                            Lorem ipsum is simply free text dolor sit amet,
+                                                            consectetur adipisicing elit, sed do incididunt ut
+                                                            labore et dolore magna aliqua.
+                                                        </div>
+                                                        <div className="testimonials-card__author">
+                                                            <div className="testimonials-card__icon">
+                                                                <i className="icon-quote" />
+                                                            </div>
+                                                            <div className="testimonials-card__autor__info">
+                                                                <h3 className="testimonials-card__name">
+                                                                    Kevin martin
+                                                                </h3>
+                                                                <p className="testimonials-card__designation">
+                                                                    Market Manager
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="item">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
+                                            <div className="testimonials-card__inner">
+                                                <div className="testimonials-card__top">
+                                                    <div className="testimonials-card__image">
+                                                        <img src={Test3} alt="Sarah albert"/>
+                                                    </div>
+                                                    <div className="testimonials-card__top__left">
+                                                        <div className="testimonials-card__rating">
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                            <i className="fa fa-star" />
+                                                        </div>
+                                                        <div className="testimonials-card__content">
+                                                            Lorem ipsum is simply free text dolor sit amet,
+                                                            consectetur adipisicing elit, sed do incididunt ut
+                                                            labore et dolore magna aliqua.
+                                                        </div>
+                                                        <div className="testimonials-card__author">
+                                                            <div className="testimonials-card__icon">
+                                                                <i className="icon-quote" />
+                                                            </div>
+                                                            <div className="testimonials-card__autor__info">
+                                                                <h3 className="testimonials-card__name">
+                                                                    Sarah albert
+                                                                </h3>
+                                                                <p className="testimonials-card__designation">
+                                                                    Co Founder
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="item">
                                         <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
@@ -168,83 +244,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-                                            <div className="testimonials-card__inner">
-                                                <div className="testimonials-card__top">
-                                                    <div className="testimonials-card__image">
-                                                        <img src={Test3} alt="Sarah albert"/>
-                                                    </div>
-                                                    <div className="testimonials-card__top__left">
-                                                        <div className="testimonials-card__rating">
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                        </div>
-                                                        <div className="testimonials-card__content">
-                                                            Lorem ipsum is simply free text dolor sit amet,
-                                                            consectetur adipisicing elit, sed do incididunt ut
-                                                            labore et dolore magna aliqua.
-                                                        </div>
-                                                        <div className="testimonials-card__author">
-                                                            <div className="testimonials-card__icon">
-                                                                <i className="icon-quote" />
-                                                            </div>
-                                                            <div className="testimonials-card__autor__info">
-                                                                <h3 className="testimonials-card__name">
-                                                                    Sarah albert
-                                                                </h3>
-                                                                <p className="testimonials-card__designation">
-                                                                    Co Founder
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
-                                            <div className="testimonials-card__inner">
-                                                <div className="testimonials-card__top">
-                                                    <div className="testimonials-card__image">
-                                                        <img src={Test2} alt="Kevin martin" />
-                                                    </div>
-                                                    <div className="testimonials-card__top__left">
-                                                        <div className="testimonials-card__rating">
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                        </div>
-                                                        <div className="testimonials-card__content">
-                                                            Lorem ipsum is simply free text dolor sit amet,
-                                                            consectetur adipisicing elit, sed do incididunt ut
-                                                            labore et dolore magna aliqua.
-                                                        </div>
-                                                        <div className="testimonials-card__author">
-                                                            <div className="testimonials-card__icon">
-                                                                <i className="icon-quote" />
-                                                            </div>
-                                                            <div className="testimonials-card__autor__info">
-                                                                <h3 className="testimonials-card__name">
-                                                                    Kevin martin
-                                                                </h3>
-                                                                <p className="testimonials-card__designation">
-                                                                    Market Manager
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
