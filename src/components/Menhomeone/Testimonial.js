@@ -56,7 +56,7 @@ function Testimonial() {
                             <div className="hiredots-stretch-element-inside-column">
                                 <Slider className='testimonials-one' {...Test} slidesToShow={2} slidesToScroll={2} margin={30} arrows={false}>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -93,7 +93,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -130,7 +130,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -168,7 +168,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="80ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -206,7 +206,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="000ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -244,7 +244,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">

@@ -11,20 +11,20 @@ function Cta() {
             <section className="cta-one" style={{ backgroundImage: `url(${Vdoimg})` }} >
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 col-xl-8 wow fadeInLeft" data-wow-delay="100ms">
+                        <div className="col-md-8 col-xl-8 wow fadeInLeft" data-wow-delay="10ms">
                             <h2 className="cta-one__title">
                             HillRock Trusted Consultant &amp; <br />
                             HR Services
                             </h2>
                         </div>
                         <div className="col-md-4 col-xl-4 text-end wow fadeInRight"
-                            data-wow-delay="100ms" >
+                            data-wow-delay="10ms" >
                             <Link to="/about" className="hiredots-btn hiredots-btn--base">
                                 <span>Discover more</span>
                             </Link>
                         </div>
                     </div>
-                    <div className="cta-one__text wow fadeInUp" data-wow-delay="100ms">
+                    <div className="cta-one__text wow fadeInUp" data-wow-delay="10ms">
                         <p>We’re Solving Recruitment Problems Using Technology</p>
                     </div>
                     <div className="row">

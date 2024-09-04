@@ -18,7 +18,7 @@ function Team() {
                     </div>
                     <div className="row">
                         <div className="col-md-6 col-lg-3">
-                            <div className="team-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+                            <div className="team-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="000ms">
                                 <div className="team-card__image">
                                     <div className="team-card__image__bg" />
                                     <img src={Team4} alt="Mike Hardson" />
@@ -55,7 +55,7 @@ function Team() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="team-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                            <div className="team-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="100ms">
                                 <div className="team-card__image">
                                     <div className="team-card__image__bg" />
                                     <img src={Team1} alt="aleesha brown" />
@@ -92,7 +92,7 @@ function Team() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="team-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                            <div className="team-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
                                 <div className="team-card__image">
                                     <div className="team-card__image__bg" />
                                     <img src={Team3} alt="david cooper" />
@@ -129,7 +129,7 @@ function Team() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="team-card wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                            <div className="team-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="80ms">
                                 <div className="team-card__image">
                                     <div className="team-card__image__bg" />
                                     <img src={Team4} alt="david cooper" />
