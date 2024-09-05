@@ -30,7 +30,7 @@ function Main() {
                 <Projectone />
                 <Ctatwo />
                 <Testimonial />
-                <Blog />
+                <Blog /> 
                 <Footer />
             </div>
         </>

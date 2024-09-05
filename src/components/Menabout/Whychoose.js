@@ -45,26 +45,30 @@ function Whychoose() {
                         <div className="col-xl-6">
                             <div className="why-choose-two__content">
                                 <div className="sec-title text-left">
-                                    <h6 className="sec-title__tagline">about our agency</h6>
+                                    <h6 className="sec-title__tagline">about HillRock</h6>
                                     <h3 className="sec-title__title">
-                                        Reliable &amp; Cost Efficiant <br /> Recruitment Agency
+                                        Reliable &amp; Cost Efficiant <br /> HR Services
                                     </h3>
                                 </div>
                                 <p className="why-choose-two__text">
-                                Hillrock Resource offers access to high-level HR expertise, labour relations,
-increased efficiency, and on-demand support to businesses of all shapes and sizes.
-Our outsource HR function comes with complete, compliant, and cost-effective
-HR support system behind your business backed by the technology, experience,
-and legal know-how you need for total peace of mind..
+                                We offer comprehensive HR and consulting services tailored to meet the unique needs of businesses of all sizes. 
+                                At Hillrock Resource Ltd, we go beyond traditional HR services by providing access to high-level HR expertise, labor relations management,
+                                 increased efficiency, and on-demand support. Our flexible, tailored, and affordable services are designed to nourish and prosper your organization, 
+                                 ensuring a complete, 
+                                compliant, and cost-effective HR support system. Let us empower your business to achieve new heights of success.
                                 </p>
                                 <ul className="why-choose-two__feature   ">
                                     <li>
                                         <i className="fas fa-check-circle" />
-                                        Understand Your Needs
+                                        Customized  HR advisory services
                                     </li>
                                     <li>
                                         <i className="fas fa-check-circle" />
-                                        Find the Perfect Candidate
+                                        Expert HR solutions
+                                    </li>
+                                    <li>
+                                    <i className="fas fa-check-circle" />
+                                        Reliable and trusted business partner
                                     </li>
                                 </ul>
                                 <div className="why-choose-two__progress">
