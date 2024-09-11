@@ -8,12 +8,13 @@ function Funfact() {
         Success: 0,
         Coustmer: 0,
     };
-    const finalCounts = {
+    const newLocal = {
         Employer: 697,
         Job: 430,
         Success: 98,
         Coustmer: 800,
     };
+    const finalCounts = newLocal;
 
     const [counts, setCounts] = useState(initialCounts);
 

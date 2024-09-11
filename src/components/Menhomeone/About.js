@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import About1 from '../../assets/images/resources/about-1-1.jpg'
 import Aboutshape1 from '../../assets/images/resources/about-1-shape-1.png'
 import Aboutblubimg from '../../assets/images/resources/about-1-bulb.png'
-import Aboutauthor from '../../assets/images/resources/about-1-author.jpg'
-import Aboutsign from '../../assets/images/backgrounds/sign.png'
 
 function About() {
     const initialCounts = {
@@ -58,15 +56,14 @@ function About() {
                             <div className="about-one__content">
                                 <div className="sec-title text-left">
                                     <h6 className="sec-title__tagline">about our Service</h6>
-                                    <h3 className="sec-title__title">
-                                        Reliable &amp; Cost Efficient <br />
-                                        Recruitment Services
+                                    <h3 className="sec-title__title"> 
+                                    Your trusted partner in HR <br />&amp; Management Consulting 
+                                        
                                     </h3>
                                 </div>
                                 <p className="about-one__content__text">
-                                You’ll have a compliant and productive workplace with best-practice HR
-management and policies in place. We’ll work with you to put together a plan and
-support you every step of the way. Safety controls.
+                                Are you searching for the right HR provider to elevate your business? Look no further than Hillrock Resource Limited.
+We offer comprehensive HR and Consulting services tailored to meet the unique needs of businesses of all sizes..
                                 </p>
                                 <div className="row">
                                     <div className="col-md-6">

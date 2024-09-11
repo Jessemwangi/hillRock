@@ -5,14 +5,12 @@ import Feature from '../Menhomeone/Feature'
 import About from '../Menhomeone/About'
 import Funfact from '../Menhomeone/Funfact'
 import Service from '../Menhomeone/Service'
-import Cta from '../Menhomeone/Cta'
 import Client from '../Menhomeone/Client'
-import Projectone from '../Menhomeone/Projectone'
 import Ctatwo from '../Menhomeone/Ctatwo'
-import Testimonial from '../Menhomeone/Testimonial'
 import Blog from '../Menhomeone/Blog'
 import Footer from '../Footer/Main'
 import WorkProcess from '../Menhometwo/WorkProcess'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function Main() {
     return (
@@ -25,6 +23,7 @@ function Main() {
                 <WorkProcess />
                 <Funfact />
                 <Service />
+                <SpeedInsights/>
                 {/* <Cta /> */}
                 <Client />
                 {/* <Projectone /> */}
