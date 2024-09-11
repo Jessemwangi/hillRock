@@ -11,10 +11,10 @@ function WorkProcess() {
                         <div className="col-md-12">
                             <div className="sec-title text-center">
                                 <h6 className="sec-title__tagline">our easy steps</h6>
-                                <h3 className="sec-title__title">
+                                {/* <h3 className="sec-title__title">
                                     See Our Simply Plan &amp; <br />
                                     Working Style
-                                </h3>
+                                </h3> */}
                             </div>
                         </div>
                     </div>
@@ -30,9 +30,9 @@ function WorkProcess() {
                                     <h4 className="work-process-one__item__title">Understanding Your Needs</h4>
                                     <p className="work-process-one__item__text">
                                      We begin with an initial consultation to understand 
-                                        <br /> your business, goals, and specific challenges.
+                                        <br /> your business, goals and specific challenges.
                                     </p>
-                                    <div className="work-process-one__item__number" />
+                                    {/* <div className="work-process-one__item__number" /> */}
                                 </div>
                             </div>
                         </div>
@@ -46,10 +46,10 @@ function WorkProcess() {
                                 <div className="work-process-one__item__content">
                                     <h4 className="work-process-one__item__title">Assessment and Analysis</h4>
                                     <p className="work-process-one__item__text">
-                                    Our experts conducts a thorough assessment &   
+                                    Our experts conduct a thorough assessment &   
                                         <br />analysis of the issue to identify the root cause.
                                     </p>
-                                    <div className="work-process-one__item__number" />
+                                    {/* <div className="work-process-one__item__number" /> */}
                                 </div>
                             </div>
                         </div>
@@ -62,10 +62,10 @@ function WorkProcess() {
                                 <div className="work-process-one__item__content">
                                     <h4 className="work-process-one__item__title">Tailored Solutions</h4>
                                     <p className="work-process-one__item__text">
-                                    Design and implement customized solutions tailored to your business needs,
-                                        <br /> then continuously monitor, review and evaluation .
+                                    Design and implement customized solutions to your 
+                                        <br /> business needs, then continuously monitor, review and evaluate.
                                     </p>
-                                    <div className="work-process-one__item__number" />
+                                    {/* <div className="work-process-one__item__number" /> */}
                                 </div>
                             </div>
                         </div>

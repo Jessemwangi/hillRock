@@ -55,7 +55,7 @@ function About() {
                         <div className="col-xl-6 wow fadeInRight" data-wow-delay="5ms">
                             <div className="about-one__content">
                                 <div className="sec-title text-left">
-                                    <h6 className="sec-title__tagline">about our Service</h6>
+                                    <h6 className="sec-title__tagline">about our Services</h6>
                                     <h3 className="sec-title__title"> 
                                     Your trusted partner in HR <br />&amp; Management Consulting 
                                         

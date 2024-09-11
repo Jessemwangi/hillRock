@@ -11,15 +11,15 @@ function Service() {
                 <div className="container">
                     <div className="sec-title text-center">
                         <h6 className="sec-title__tagline">Our Service area</h6>
-                        <h3 className="sec-title__title">
+                        {/* <h3 className="sec-title__title">
                             Outsourced Hiring &amp; Job <br />
                             Expert Hr Services
-                        </h3>
+                        </h3> */}
                     </div>
                     <div className="row gutter-y-30">
                         {services?.slice(0,3).map((service, index) => (
                             <div key={index} className="col-md-6 col-lg-4">
-                                <div className="service-one-card service-card-two" data-wow-duration="50ms">
+                                <div className="service-one-card service-card-two" data-wow-duration="20ms">
                                     <div className="service-one-card__image">
                                         <img src={service.image} alt={service.title} />
                                     </div>
