@@ -37,8 +37,7 @@ function Client() {
                     <div className="row">
                         <div className="col-xl-3">
                             <h3 className="client-carousel__title">
-                                Trusted and funded by more
-                                <br /> then 800 companies
+                                Our Happy Clients
                             </h3>
                         </div>
                         <div className="col-xl-9">
