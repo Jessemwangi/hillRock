@@ -70,11 +70,11 @@ We offer comprehensive HR and Consulting services tailored to meet the unique ne
                                         <ul className="about-one__content__list">
                                             <li>
                                                 <span className="fa fa-check-circle" />
-                                                Payroll Administration
+                                                Expert HR services
                                             </li>
                                             <li>
                                                 <span className="fa fa-check-circle" />
-                                                Expert HR outsource services
+                                                Recruitment and placement
                                             </li>
                                         </ul>
                                         <div className="about-one__content__quote">
