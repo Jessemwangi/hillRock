@@ -59,7 +59,7 @@ function About() {
                                 <div className="sec-title text-left">
                                     <h6 className="sec-title__tagline">about our Service</h6>
                                     <h3 className="sec-title__title">
-                                        Reliable &amp; Cost Efficiant <br />
+                                        Reliable &amp; Cost Efficient <br />
                                         Recruitment Services
                                     </h3>
                                 </div>
@@ -84,15 +84,7 @@ support you every step of the way. Safety controls.
                                         Rely on our professional payroll experts to process your employee’s benefits
 including salaries, bonuses and filing statutory deductions.
                                         </div>
-                                        <div className="about-one__content__author">
-                                            <div className="about-one__content__author__thumb">
-                                                <img src={Aboutauthor} alt="hiredots" />
-                                            </div>
-                                            <div className="about-one__content__author__meta">
-                                                <img src={Aboutsign} alt="hiredots" />
-                                                Certified
-                                            </div>
-                                        </div>
+
                                     </div>
                                     <div className="col-md-6">
                                         <div className="about-one__award">

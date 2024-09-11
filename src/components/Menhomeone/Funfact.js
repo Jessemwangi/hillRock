@@ -43,7 +43,7 @@ function Funfact() {
         <div>
             <section className="funfact-one">
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{display:'flex',justifyContent:"center"}}>
                         <div className="col-lg-3 col-md-6 " style={{width:"200px",marginRight:'30px'}}>
                             <div className="funfact-one__item">
                                 <div className="funfact-one__icon">
