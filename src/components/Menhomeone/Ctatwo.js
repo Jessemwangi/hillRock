@@ -19,7 +19,7 @@ function Ctatwo() {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7 wow fadeInLeft" data-wow-delay="20ms">
+                        <div className="col-lg-7 wow fadeInLeft">
                             <div className="cta-two__content">
                                 <div className="cta-two__sub-title" style={{transform: 'rotate(-45deg)'}} >
                                     <img  src={Ctasubtitle} alt="hiredots" style={{border:"4px double purple",padding:'5px'}}/>
@@ -32,7 +32,7 @@ function Ctatwo() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-lg-5 wow fadeInRight" data-wow-delay="20ms">
+                        <div className="col-lg-5 wow fadeInRight">
                             <div className="cta-two__image">
                                 <img src={baloonLove} alt="hiredots" />
                             </div>
