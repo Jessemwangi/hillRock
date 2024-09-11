@@ -25,11 +25,11 @@ function Main() {
                 <WorkProcess />
                 <Funfact />
                 <Service />
-                <Cta />
+                {/* <Cta /> */}
                 <Client />
-                <Projectone />
+                {/* <Projectone /> */}
                 <Ctatwo />
-                <Testimonial />
+                {/* <Testimonial /> */}
                 <Blog /> 
                 <Footer />
             </div>

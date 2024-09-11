@@ -44,46 +44,46 @@ function Funfact() {
             <section className="funfact-one">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-3 col-md-6 " style={{width:"200px",marginRight:'30px'}}>
                             <div className="funfact-one__item">
                                 <div className="funfact-one__icon">
                                     <span className="icon-business-idea" />
                                 </div>
                                 <div className="funfact-one__count count-box">
-                                <span className="count">{counts.Employer}</span>
+                                <span className="count" style={{color:'#0b2f81'}}>{counts.Employer}</span>
                                 </div>
                                 <p className="funfact-one__text">Employer Solutions</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-3 col-md-6" style={{width:"300px",marginRight:'30px'}} >
                             <div className="funfact-one__item">
                                 <div className="funfact-one__icon">
                                     <span className="icon-recruit" />
                                 </div>
                                 <div className="funfact-one__count count-box">
-                                <span className="count">{counts.Job}</span>
+                                <span className="count" style={{color:'#0b2f81'}}>{counts.Job}</span>
                                 </div>
                                 <p className="funfact-one__text">People Job Seekers</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-3 col-md-6" style={{width:"300px",marginRight:'30px'}}>
                             <div className="funfact-one__item">
                                 <div className="funfact-one__icon">
                                     <span className="icon-success" />
                                 </div>
                                 <div className="funfact-one__count count-box">
-                                <span className="count">{counts.Success}</span>%
+                                <span className="count" style={{color:'#0b2f81'}}>{counts.Success}</span>%
                                 </div>
                                 <p className="funfact-one__text">Success Rates</p>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-3 col-md-6" style={{width:"300px"}}>
                             <div className="funfact-one__item">
                                 <div className="funfact-one__icon">
                                     <span className="icon-customer-review" />
                                 </div>
                                 <div className="funfact-one__count count-box">
-                                <span className="count">{counts.Coustmer}</span>
+                                <span className="count" style={{color:'#0b2f81'}}>{counts.Coustmer}</span>
                                 </div>
                                 <p className="funfact-one__text">Happy Customers</p>
                             </div>

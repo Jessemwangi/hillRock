@@ -19,7 +19,7 @@ function Service() {
                     <div className="row gutter-y-30">
                         {services?.slice(0,3).map((service, index) => (
                             <div key={index} className="col-md-6 col-lg-4">
-                                <div className="service-one-card service-card-two" data-wow-duration="100ms">
+                                <div className="service-one-card service-card-two" data-wow-duration="50ms">
                                     <div className="service-one-card__image">
                                         <img src={service.image} alt={service.title} />
                                     </div>

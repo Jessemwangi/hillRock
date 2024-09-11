@@ -16,13 +16,13 @@ link:'/services#labour'
         iconClass: 'icon-creative-idea',
         title: 'Recruitment and placement',
         text: `We identify and attract top-tier talent that aligns with your company's values and goals.`,
-        link:'/recruitment#labour'
+        link:'/services#recruitment-labour'
     },
     {
         img: feature3,
         iconClass: 'icon-mission',
         title: 'Expert HR advisory & solutions',
         text: 'Navigate the complexities of HR management with our expert advisory services',
-        link:'/advisory#labour'
+        link:'/services#advisory-labour'
     }
 ];

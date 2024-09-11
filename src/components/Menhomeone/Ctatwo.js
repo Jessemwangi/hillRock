@@ -4,7 +4,7 @@ import Bgimg from '../../assets/images/resources/cta-2-2.png'
 import Ctashape1 from '../../assets/images/shapes/cta-2-shape-1.png'
 import Ctashape2 from '../../assets/images/shapes/cta-2-shape-2.png'
 import Ctasubtitle from '../../assets/images/resources/cta-2-sub-title.png'
-import Ctashape3 from '../../assets/images/shapes/cta-2-1.png'
+import baloonLove from '../../assets/images/shapes/cta-2-1.png'
 
 
 function Ctatwo() {
@@ -19,10 +19,10 @@ function Ctatwo() {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7 wow fadeInLeft" data-wow-delay="100ms">
+                        <div className="col-lg-7 wow fadeInLeft" data-wow-delay="20ms">
                             <div className="cta-two__content">
-                                <div className="cta-two__sub-title">
-                                    <img src={Ctasubtitle} alt="hiredots"/>
+                                <div className="cta-two__sub-title" style={{transform: 'rotate(-45deg)'}} >
+                                    <img  src={Ctasubtitle} alt="hiredots" style={{border:"4px double purple",padding:'5px'}}/>
                                 </div>
                                 <h2 className="cta-two__title">
                                 Calm Solutions: Simplifying Payroll & HR
@@ -32,9 +32,9 @@ function Ctatwo() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-lg-5 wow fadeInRight" data-wow-delay="100ms">
+                        <div className="col-lg-5 wow fadeInRight" data-wow-delay="20ms">
                             <div className="cta-two__image">
-                                <img src={Ctashape3} alt="hiredots" />
+                                <img src={baloonLove} alt="hiredots" />
                             </div>
                         </div>
                     </div>

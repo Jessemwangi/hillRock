@@ -74,34 +74,7 @@ function Sliderone() {
                             </div>
                         </div>
                     </div>
-                    <div className="item" data-dot="<button>3</button>">
-                        <div className="main-slider-one__item">
-                            <div className="main-slider-one__bg"style={{ backgroundImage: `url(${Bgimg3})`}}/>
-                            <div className="main-slider-one__overlay" /> 
-                            <div className="main-slider-one__shape" style={{ backgroundImage: `url(${Bgimg1})` }}/>
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-md-12">
-                                        <div className="main-slider-one__content">
-                                            <div className="main-slider-one__image">
-                                                <img src={Slidershape2} alt="hiredots"/>
-                                            </div>
-                                            <h2 className="main-slider-one__title">
-                                                Right
-                                                <br /> People for
-                                                <br /> the Business
-                                            </h2>
-                                            <div className="main-slider-one__btn">
-                                                <Link to="/services" className="hiredots-btn">
-                                                    <span>Discover More</span>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
                 </Slider>
             </section>
         </div>

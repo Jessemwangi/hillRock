@@ -8,11 +8,12 @@ import { features } from '../../data/aboutUs';
 function Feature() {
     return (
         <div>
-            <section className="feature-one" style={{marginTop:'100px'}}>
+            <section className="feature-one" >
                 <div className="container">
                     <div className="row gutter-y-30">
                         {features.map((feature, index) => (
-                            <div key={index} className="col-lg-4 col-md-1 wow fadeInUp" data-wow-delay={`${30 * (index + 1)}ms`}>
+                            <div key={index} className="col-lg-4 col-md-1 wow fadeInUp" data-wow-delay={`${1 * (index + 1)}ms`}>
+                                <a href={`${feature.link}`}>
                                 <div className="feature-one__item text-center">
                                     {/* <div className="feature-one__item__img">
                                         <img src={feature.img} alt="hiredots" />
@@ -26,16 +27,18 @@ function Feature() {
                                             {feature.title}
                                         </h3>
                                         <p className="feature-one__item__text">
-                                            {feature.text}
+                                            
+                                            {feature.text}<br/>
                                         </p>
                                         <div className="main-slider-one__btn">
-                                        <Link to={feature.link} className="hiredots-btn">
+                                        <Link to={feature.link}  style={{color:"white", background:"green"} }>
                                             <span>View more</span>
                                         </Link>
                                             </div>
                                      
                                     </div>
                                 </div>
+                            </a>
                             </div>
                         ))}
                     </div>

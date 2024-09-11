@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import Test1 from '../../assets/images/shapes/testimonail-share.png'
 import Test2 from '../../assets/images/resources/testi-1-1.jpg'
 import Test3 from '../../assets/images/resources/testi-1-2.jpg'
+import { testimonial } from '../../data/testimonials';
 
 const Test = {
     margin: 30,
@@ -28,6 +29,7 @@ const Test = {
 }
 
 function Testimonial() {
+    const testimonials = testimonial
     return (
         <div>
             <div className="testimonials-one background-gray">
@@ -39,61 +41,65 @@ function Testimonial() {
                         <div className="col-xl-4">
                             <div className="testimonials-one__sec-title">
                                 <div className="sec-title text-left">
-                                    <h6 className="sec-title__tagline">our testimonials</h6>
+                                    <h6 className="sec-title__tagline">${testimonials.contentTitle}</h6>
                                     <h3 className="sec-title__title">
-                                        What They’re <br /> Talking About?
+                                    ${testimonials.titleA}  <br /> ${testimonials.titleB}
                                     </h3>
                                 </div>
                                 <p className="testimonials-one__text">
-                                At Hillrock Resource Ltd, our clients' satisfaction is our top priority. We take pride in delivering high-quality HR and consulting services tailored to
-                                 meet the unique needs of each business we partner with. 
-                                But don't just take our word for it—here's what our clients have to say about their experience working with us.
-                                </p>
+                             </p>
                                 <div className="testimonials-one__dots" />
                             </div>
                         </div>
+
                         <div className="col-xl-8">
                             <div className="hiredots-stretch-element-inside-column">
                                 <Slider className='testimonials-one' {...Test} slidesToShow={2} slidesToScroll={2} margin={30} arrows={false}>
-                                    <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
-                                            <div className="testimonials-card__inner">
-                                                <div className="testimonials-card__top">
-                                                    <div className="testimonials-card__image">
-                                                        <img src={Test2} alt="Kevin martin"/>
+                                
+                                {
+                                testimonials.clients.map((item)=>(
+                            
+                                <div className="item" key={item.id}>
+                                <div className="testimonials-card wow fadeInUp" data-wow-duration="50ms" data-wow-delay="10ms">
+                                    <div className="testimonials-card__inner">
+                                        <div className="testimonials-card__top">
+                                            <div className="testimonials-card__image">
+                                                <img src={Test2} alt="Kevin martin"/>
+                                            </div>
+                                            <div className="testimonials-card__top__left">
+                                                <div className="testimonials-card__rating">
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                    <i className="fa fa-star" />
+                                                </div>
+                                                <div className="testimonials-card__content">
+                                                    ${item.content}
+                                                </div>
+                                                <div className="testimonials-card__author">
+                                                    <div className="testimonials-card__icon">
+                                                        <i className="icon-quote" />
                                                     </div>
-                                                    <div className="testimonials-card__top__left">
-                                                        <div className="testimonials-card__rating">
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                            <i className="fa fa-star" />
-                                                        </div>
-                                                        <div className="testimonials-card__content">
-                                                        "Working with HILLROCK has been a game-changer for our business. 
-                                                        Their expertise and dedication have helped us streamline our HR processes and improve employee engagement."
-                                                        </div>
-                                                        <div className="testimonials-card__author">
-                                                            <div className="testimonials-card__icon">
-                                                                <i className="icon-quote" />
-                                                            </div>
-                                                            <div className="testimonials-card__autor__info">
-                                                                <h3 className="testimonials-card__name">
-                                                                    Hon. Robert James R
-                                                                </h3>
-                                                                <p className="testimonials-card__designation">
-                                                                Senator
-                                                                </p>
-                                                            </div>
-                                                        </div>
+                                                    <div className="testimonials-card__autor__info">
+                                                        <h3 className="testimonials-card__name">
+                                                        ${item.userName}
+                                                        </h3>
+                                                        <p className="testimonials-card__designation">
+                                                        ${item.designation}
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            
+                        ))}
+                                   
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
+                                        <div className="testimonials-card wow fadeInUp" >
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -130,7 +136,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
+                                        <div className="testimonials-card wow fadeInUp">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -168,7 +174,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
+                                        <div className="testimonials-card wow fadeInUp">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -206,7 +212,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
+                                        <div className="testimonials-card wow fadeInUp" >
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -244,7 +250,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" data-wow-duration="100ms" data-wow-delay="50ms">
+                                        <div className="testimonials-card wow fadeInUp" >
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
