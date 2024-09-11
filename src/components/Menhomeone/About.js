@@ -78,8 +78,7 @@ We offer comprehensive HR and Consulting services tailored to meet the unique ne
                                             </li>
                                         </ul>
                                         <div className="about-one__content__quote">
-                                        Rely on our professional payroll experts to process your employee’s benefits
-including salaries, bonuses and filing statutory deductions.
+                                       Transforming talent management with <b>AI-driven</b> for smarter, faster HR decisions.
                                         </div>
 
                                     </div>
