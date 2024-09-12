@@ -3,7 +3,7 @@ import Servicedtls from '../../assets/images/history/vision.png'
 
 const HistoryIntro = () => {
     return (
-        <>
+        <section>
            
                 <div className="container">
                     <div className="col-md-12 col-lg-12">
@@ -96,7 +96,7 @@ const HistoryIntro = () => {
 
                         </div>
                        
-        </>
+        </section>
     );
 };
 
