@@ -2,6 +2,7 @@ export const servicesList = [
       {
         id: 1,
         serviceName: "Labour Outsourcing",
+        link: 'Labour Outsourcing',
         description: "Whether you have an in-house HR team or none at all, our effective HR support ensures your business stays compliant and efficient. Our team of highly qualified professionals is available 24/7 to provide unlimited, untimed expert advice.",
         services: [
           { id: 1, name: "Contract management solutions" },
@@ -14,6 +15,7 @@ export const servicesList = [
       {
         id: 2,
         serviceName: "Recruitment and Placement",
+        link: '#recruitment-labour',
         description: "Finding the right talent is crucial for business success. We understand your needs and connect you with candidates that align with your business goals. With our extensive network, you gain access to a large pool of qualified candidates, making the hiring process seamless and efficient.",
         services: [
           { id: 1, name: "Extensive Network of Qualified Candidates" },
@@ -25,6 +27,7 @@ export const servicesList = [
       {
         id: 3,
         serviceName: "Expert HR Advisory & Solutions",
+        link: '#advisory-labour',
         description: "Hillrock Resource Advisory (HRA), comprising of a pool of sector experts will help your organization navigate complex HR challenges and provide tailored solutions based on the organization’s unique needs.",
         services: [
           { id: 1, name: "HR Policies and Frameworks" },
@@ -39,6 +42,7 @@ export const servicesList = [
       {
         id: 4,
         serviceName: "Training & Development",
+        link: "#service-training",
         "description": "Empower your team with our comprehensive training and development programs. We offer customized solutions to enhance skills, boost productivity, and foster a culture of continuous learning.",
         "services": []
       }

@@ -16,9 +16,9 @@ function ServicesLists({allServices, index}) {
                                 <>
                                     <div className="col-xl-6">
                                         <div className="why-choose-two__image">
-                                            <img src={Chooseimg1} alt="" style={{ borderRadius: '50%' }} />
-                                            <img src={Chooseimg2} className="why-choose-two__image__two hide-on-mobile" alt="" style={{ borderRadius: '50%' }} />
-                                            <img src={ChooseShape} className="why-choose-two__image__shape" alt="" />
+                                            <img src={Chooseimg1} alt="" style={{ borderRadius: '50%' }} loading="lazy" />
+                                            <img src={Chooseimg2} loading="lazy" className="why-choose-two__image__two hide-on-mobile" alt="" style={{ borderRadius: '50%' }} />
+                                            <img src={ChooseShape} loading="lazy" className="why-choose-two__image__shape" alt="" />
                                             <div className="why-choose-two__circle">
                                                 <span className="video-popups">
                                                     <i className="icon-talent-search" />

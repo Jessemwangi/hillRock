@@ -22,42 +22,34 @@ export const menuList = [
       icon: '',
       desc: '',
       submenu: [
-        {
-          id: 1,
-          path: '#',
-          name: 'labour Outsourcing',
-          icon: '',
-          desc: ''
-        },
-        {
-          id: 2,
-          path: '/service-consulting',
-          name: 'HR Consulting',
-          icon: '',
-          desc: ''
-        },
-        {
-          id: 3,
-          path: '#recruitment-labour',
-          name: 'Recruitment and placement',
-          icon: '',
-          desc: ''
-        },
-        {
-          id: 4,
-          path: '/service-consulting',
-          name: 'Expert HR advisory & solutions',
-          icon: '',
-          desc: ''
-        },
         // {
-        //   id: 5,
-        //   path: '/service-consulting',
-        //   name: 'Software Solutions',
+        //   id: 1,
+        //   path: '#',
+        //   name: 'labour Outsourcing',
         //   icon: '',
         //   desc: ''
         // },
-       
+        // {
+        //   id: 2,
+        //   path: '/service-consulting',
+        //   name: 'HR Consulting',
+        //   icon: '',
+        //   desc: ''
+        // },
+        // {
+        //   id: 3,
+        //   path: '#recruitment-labour',
+        //   name: 'Recruitment and placement',
+        //   icon: '',
+        //   desc: ''
+        // },
+        // {
+        //   id: 4,
+        //   path: '/service-consulting',
+        //   name: 'Expert HR advisory & solutions',
+        //   icon: '',
+        //   desc: ''
+        // },
         // Add more submenu items as needed
       ]
     },

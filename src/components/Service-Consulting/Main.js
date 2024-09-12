@@ -15,7 +15,7 @@ function Main() {
                 <Breadcrumb subtitle="Home" title="Our Services"cssclass='page-header__bg_services'/>
                 <ServiceIntro/>
                 {servicesList.map((service,index) =>(
-                    <section className={`${service.serviceName}`} key={service.id}>
+                    <section className={`${service.link}`} key={service.id}>
                         <ServicesLists allServices={service} index={index}/>
                     </section>
                 ))
