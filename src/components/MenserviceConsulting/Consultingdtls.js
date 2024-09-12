@@ -1,6 +1,5 @@
 import React from 'react'
 import Servicedtls from '../../assets/images/resources/service-details-p-1.png'
-import SideBarMenu from './SideBarMenu'
 import { services } from '../../data/services'
 
 function Consultingdtls() {
@@ -9,7 +8,7 @@ function Consultingdtls() {
             <section className="service-details">
                 <div className="container">
                     <div className="row gutter-y-30">
-                        <SideBarMenu/>
+                       
                                                 <div className="col-md-12 col-lg-8">
                             <div className="service-details__content">
                                

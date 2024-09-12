@@ -392,7 +392,6 @@ h6 {
 .hiredots-btn {
   display: inline-block;
   vertical-align: middle;
-  -webkit-appearance: none;
   border: none;
   outline: none !important;
   background-color: var(--hiredots-base, #F36622);
@@ -10672,7 +10671,11 @@ border-radius: 50%;
 .pricing-one .hiredots-btn::after {
   background-color: var(--hiredots-base, #F36622);
 }
-
+@media (max-width: 768px) {
+.hide-on-mobile{
+  display: none;
+}
+}
 
 
 /*# sourceMappingURL=hiredots.css.map */

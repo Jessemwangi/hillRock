@@ -51,7 +51,6 @@ function Whychoose() {
                                     </h3>
                                 </div>
                                 <p className="why-choose-two__text">
-                                We offer comprehensive HR and consulting services tailored to meet the unique needs of businesses of all sizes. 
                                 At Hillrock Resource Ltd, we go beyond traditional HR services by providing access to high-level HR expertise, labor relations management,
                                  increased efficiency, and on-demand support. Our flexible, tailored, and affordable services are designed to nourish and prosper your organization, 
                                  ensuring a complete, 
@@ -68,7 +67,7 @@ function Whychoose() {
                                     </li>
                                     <li>
                                     <i className="fas fa-check-circle" />
-                                    Reliable &amp; Cost Efficiant HR Services
+                                    Reliable &amp; Cost Efficient HR Services
                                     </li>
                                 </ul>
                                 <div className="why-choose-two__progress">
