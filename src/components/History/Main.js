@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../Header/Main'
 import Breadcrumb from '../Breadcrumb/Main'
-import Historydtls from '../Menhistory/Historydtls'
 import Footer from '../Footer/Main'
 import HistoryIntro from '../Menhistory/HistoryIntro'
 import HistoryRoadMap from '../Menhistory/HistoryRoadMap'
@@ -18,7 +17,7 @@ function Main() {
        <HistoryIntro/>
         </div>
        <HistoryRoadMap/>
-       <MarketPosition/>
+       {/* <MarketPosition/> */}
         <Footer />
     </div>
     </>
