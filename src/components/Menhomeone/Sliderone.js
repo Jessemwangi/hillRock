@@ -5,7 +5,6 @@ import Slidershape2 from '../../assets/images/shapes/slider-1-shape-2.png'
 import Bgimg from '../../assets/images/backgrounds/slider-1-1.jpg'
 import Bgimg1 from '../../assets/images/shapes/slider-1-shape-1.png'
 import Bgimg2 from '../../assets/images/backgrounds/slider-1-2.jpg'
-import Bgimg3 from '../../assets/images/backgrounds/slider-1-3.jpg'
 
 const Homeslider = {
     loop: true,

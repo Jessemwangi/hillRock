@@ -11,30 +11,30 @@ function Cta() {
             <section className="cta-one" style={{ backgroundImage: `url(${Vdoimg})` }} >
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 col-xl-8 wow fadeInLeft" data-wow-delay="10ms">
+                        <div className="col-md-8 col-xl-8 fadeInLeft">
                             <h2 className="cta-one__title">
                             HillRock Trusted Consultant &amp; <br />
                             HR Services
                             </h2>
                         </div>
-                        <div className="col-md-4 col-xl-4 text-end wow fadeInRight"
-                            data-wow-delay="10ms" >
+                        <div className="col-md-4 col-xl-4 text-end fadeInRight"
+                           >
                             <Link to="/about" className="hiredots-btn hiredots-btn--base">
                                 <span>Discover more</span>
                             </Link>
                         </div>
                     </div>
-                    <div className="cta-one__text wow fadeInUp" data-wow-delay="10ms">
+                    <div className="cta-one__text fadeInUp">
                         <p>We’re Solving Recruitment Problems Using Technology</p>
                     </div>
                     <div className="row">
-                        <div className="col-lg-2 col-xl-4 wow fadeInUp">
+                        <div className="col-lg-2 col-xl-4 fadeInUp">
                             <Link to="#"
                                 className="video-popup" onClick={() => setshow(true)}>
                                 <i className="fa fa-play"/>
                             </Link>
                         </div>
-                        <div className="col-lg-10 col-xl-8 wow fadeInUp">
+                        <div className="col-lg-10 col-xl-8 fadeInUp">
                             <div className="cta-one__content">
                                 <h3 className="cta-one__content__title">
                                     What sets us ahead!

@@ -48,8 +48,27 @@ function Main() {
         new WOW.WOW({
             live: false
         }).init();
+        const activeMenu = () => {
+            if (path === "/" || path === "/") {
+                setmenu({ home: true })
+            } else if (path === "/header" || path === "/header") {
+                setmenu({ header: true })
+            } else if (path === "/pages" || path === "/pages") {
+                setmenu({ pages: true })
+            } else if (path === "/projects" || path === "/projects") {
+                setmenu({ projects: true })
+            } else if (path === "/services" || path === "/services") {
+                setmenu({ services: true })
+            } else if (path === "/blog" || path === "/blog") {
+                setmenu({ blog: true })
+    
+    
+            }
+        }
         activeMenu()
     }, [path]);
+
+
     const isSticky = () => {
         const scrollTop = window.scrollY;
         scrollTop >= 141 ? setSticky(true) : setSticky(false);

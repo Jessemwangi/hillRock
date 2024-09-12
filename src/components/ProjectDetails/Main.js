@@ -13,7 +13,7 @@ function Main() {
 
     useEffect(()=>
     {
-        setProject(projectData.filter(({project_id}) => project_id ==id));
+        setProject(projectData.filter(({project_id}) => project_id ===id));
     },[id])
     return (
         <>

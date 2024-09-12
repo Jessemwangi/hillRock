@@ -45,7 +45,7 @@ function Blog() {
                     <Slider className='blog-slider' {...settings} slidesToShow={3} arrows={false}>
                         {newsData.slice(0,3).map((blog, index) => (
                             <div className="item" key={index}>
-                                <div className="blog-card wow fadeInUp" >
+                                <div className="blog-card fadeInUp" >
                                     <div className="blog-card__image">
                                         <img src={blog.image} alt={blog.title} />
                                     </div>

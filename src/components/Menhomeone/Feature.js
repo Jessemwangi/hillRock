@@ -12,7 +12,7 @@ function Feature() {
                 <div className="container">
                     <div className="row gutter-y-30">
                         {features.map((feature, index) => (
-                            <div key={index} className="col-lg-4 col-md-1 wow fadeInUp" data-wow-delay={`${1 * (index + 1)}ms`}>
+                            <div key={index} className="col-lg-4 col-md-1">
                                 <a href={`${feature.link}`}>
                                 <div className="feature-one__item text-center">
                                     {/* <div className="feature-one__item__img">

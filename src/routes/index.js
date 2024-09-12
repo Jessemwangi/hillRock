@@ -29,8 +29,8 @@ function index() {
          <ToastContainer />
             <Routes>
                 <Route path="/" element={<Homeone />} />
-                <Route path='/hometwo' element={<HomeTwo />} />
-                <Route path='/homethree' element={<HomeThree />} />
+                {/* <Route path='/hometwo' element={<HomeTwo />} />
+                <Route path='/homethree' element={<HomeThree />} /> */}
                 <Route path="/about" element={<About />} />
                 <Route path="/teamdetails" element={<TeamDetails />} />
                 <Route path="/jobs" element={<Jobs />} />

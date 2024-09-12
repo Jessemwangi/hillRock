@@ -60,7 +60,7 @@ function Testimonial() {
                                 testimonials.clients.map((item)=>(
                             
                                 <div className="item" key={item.id}>
-                                <div className="testimonials-card wow fadeInUp" data-wow-duration="50ms" data-wow-delay="10ms">
+                                <div className="testimonials-card fadeInUp" >
                                     <div className="testimonials-card__inner">
                                         <div className="testimonials-card__top">
                                             <div className="testimonials-card__image">
@@ -99,7 +99,7 @@ function Testimonial() {
                         ))}
                                    
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" >
+                                        <div className="testimonials-card fadeInUp" >
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -136,7 +136,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp">
+                                        <div className="testimonials-card fadeInUp">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -174,7 +174,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp">
+                                        <div className="testimonials-card fadeInUp">
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -212,7 +212,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" >
+                                        <div className="testimonials-card fadeInUp" >
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">
@@ -250,7 +250,7 @@ function Testimonial() {
                                         </div>
                                     </div>
                                     <div className="item">
-                                        <div className="testimonials-card wow fadeInUp" >
+                                        <div className="testimonials-card fadeInUp" >
                                             <div className="testimonials-card__inner">
                                                 <div className="testimonials-card__top">
                                                     <div className="testimonials-card__image">

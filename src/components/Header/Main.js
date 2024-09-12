@@ -247,15 +247,9 @@ function Main() {
                                     {homeDrop &&
                                         <ul style={{ display: "block" }}>
                                             <li className="current">
-                                                <Link to="/" onClick={() => setIsDropdownOpen(false)}>Home One</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/hometwo" >Home Two</Link>
-                                            </li>
-                                            <li>
-                                                <Link to="/homethree">Home Three</Link>
-                                            </li>
-                                            <li className="dropdown current">
+                                                <Link to="/" onClick={() => setIsDropdownOpen(false)}>Home</Link>
+                                            </li>                                        
+                                            {/* <li className="dropdown current">
                                                 <Link to="#" className={headerDrop ? "expanded" : ""}>Header Styles<button aria-label="dropdown toggler" className={headerDrop ? "expanded" : ""} onClick={() => setheaderDrop(headerDrop ? false : true)} ><i className="fa fa-angle-down"></i></button></Link>
                                                 {headerDrop &&
                                                     <ul style={{ display: "block" }}>
@@ -269,13 +263,13 @@ function Main() {
                                                             <Link to="/homethree">Header Three</Link>
                                                         </li>
                                                     </ul>}
-                                            </li>
+                                            </li> */}
                                         </ul>}
                                 </li>
                                 <li>
                                     <Link to="/about">About</Link>
                                 </li>
-                                <li className="dropdown current">
+                                {/* <li className="dropdown current">
                                     <Link to="#" className={pageDrop ? "expanded" : ""}>pages<button aria-label="dropdown toggler" className={pageDrop ? "expanded" : ""} onClick={() => setpageDrop(pageDrop ? false : true)} ><i className="fa fa-angle-down"></i></button></Link>
                                     {pageDrop &&
                                         <ul style={{ display: "block" }}>
@@ -292,7 +286,7 @@ function Main() {
                                                 <Link to="/faq">FAQs</Link>
                                             </li>
                                         </ul>}
-                                </li>
+                                </li> */}
                                 <li className="dropdown">
                                     <Link to="#" className={servicesDrop ? "expanded" : ""}>Services<button aria-label="dropdown toggler" className={servicesDrop ? "expanded" : ""} onClick={() => setservicesDrop(servicesDrop ? false : true)} ><i className="fa fa-angle-down"></i></button></Link>
                                     {servicesDrop &&
@@ -321,7 +315,7 @@ function Main() {
                                             </li>
                                         </ul>}
                                 </li>
-                                <li className="dropdown">
+                                {/* <li className="dropdown">
                                     <Link to="#" className={projectsDrop ? "expanded" : ""}>
                                         Projects
                                         <button aria-label="dropdown toggler" className={projectsDrop ? "expanded" : ""} onClick={() => setprojectsDrop(projectsDrop ? false : true)}>
@@ -337,14 +331,18 @@ function Main() {
                                                 <Link to="/project-details" onClick={() => setIsDropdownOpen(false)}>Projects Details</Link>
                                             </li>
                                         </ul>}
+                                </li> */}
+                                  <li>
+                                    <Link to="/news">News</Link>
                                 </li>
-                                <li className="dropdown">
+                                {/* <li className="dropdown">
                                     <Link to="#" className={blogDrop ? "expanded" : ""}>
                                         News
                                         <button aria-label="dropdown toggler" className={blogDrop ? "expanded" : ""} onClick={() => setblogDrop(blogDrop ? false : true)}>
                                             <i className="fa fa-angle-down"></i>
                                         </button>
                                     </Link>
+                                  
                                     {blogDrop &&
                                         <ul style={{ display: "block" }}>
                                             <li>
@@ -354,7 +352,7 @@ function Main() {
                                                 <Link to="/blog-details" onClick={() => setIsDropdownOpen(false)}>News Details</Link>
                                             </li>
                                         </ul>}
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link to="/contact">Contact</Link>
                                 </li>
@@ -367,7 +365,7 @@ function Main() {
                             </li>
                             <li>
                                 <i className="fa fa-phone-alt" />
-                                <Link to="tel:666-888-0000">666 888 0000</Link>
+                                <Link to="tel:+254 704 605 613">+254 704 605 613</Link>
                             </li>
                         </ul>
                         <div className="mobile-nav__social">

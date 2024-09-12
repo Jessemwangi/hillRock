@@ -42,7 +42,7 @@ function About() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6">
-                            <div className="about-one__image wow fadeInLeft" data-wow-delay="5ms">
+                            <div className="about-one__image wow fadeInLeft" data-wow-delay="2ms">
                                 <div className="about-one__image-one">
                                     <img src={About1} alt="hiredots" />
                                     <img className="about-one__image-one__shape" src={Aboutshape1} alt="hiredots" />
@@ -52,7 +52,7 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="5ms">
+                        <div className="col-xl-6 wow fadeInRight" data-wow-delay="2ms">
                             <div className="about-one__content">
                                 <div className="sec-title text-left">
                                     <h6 className="sec-title__tagline">about our Services</h6>
