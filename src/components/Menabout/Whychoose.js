@@ -47,7 +47,7 @@ function Whychoose() {
                                 <div className="sec-title text-left">
                                     <h6 className="sec-title__tagline">about HillRock</h6>
                                     <h3 className="sec-title__title">
-                                        Reliable &amp; Cost Efficiant <br /> HR Services
+                                    comprehensive HR &amp; <br /> consulting services
                                     </h3>
                                 </div>
                                 <p className="why-choose-two__text">
@@ -68,7 +68,7 @@ function Whychoose() {
                                     </li>
                                     <li>
                                     <i className="fas fa-check-circle" />
-                                        Reliable and trusted business partner
+                                    Reliable &amp; Cost Efficiant HR Services
                                     </li>
                                 </ul>
                                 <div className="why-choose-two__progress">
