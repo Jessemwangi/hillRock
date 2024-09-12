@@ -7,11 +7,6 @@ import hr from '../../assets/images/backgrounds/shape-02.png'
 
 function Whychoose() {
 
-     const circleTextOptions = {
-        radius: 92,
-        forceWidth: true,
-        forceHeight: true
-    };
 
     return (
         <div>

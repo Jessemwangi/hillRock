@@ -1,5 +1,4 @@
 import React from 'react';
-import Servicedtls from '../../assets/images/resources/service-details-p-1.png'
 
 const ServiceIntro = () => {
     return (
