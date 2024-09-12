@@ -1,8 +1,6 @@
 import React from 'react'
 import { Route, Routes, } from 'react-router-dom';
 import Homeone from '../components/Homeone/Main';
-import HomeTwo from '../components/HomeTwo/Main'
-import HomeThree from '../components/HomeThree/Main'
 import About from '../components/About/Main';
 import TeamDetails from '../components/TeamDetails/Main'
 import Jobs from '../components/Jobs/Main'
