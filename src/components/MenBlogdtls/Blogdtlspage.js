@@ -12,7 +12,7 @@ const[news,setNews] =useState([])
 
 useEffect(()=>
 {
-    setNews(newsData.filter(({ id: newsId }) =>newsId == id));
+    setNews(newsData.filter(({ id: newsId }) =>newsId === id));
 },[id])
 
     return (
