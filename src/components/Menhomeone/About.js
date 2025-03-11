@@ -78,7 +78,7 @@ We offer comprehensive HR and Consulting services tailored to meet the unique ne
                                             </li>
                                         </ul>
                                         <div className="about-one__content__quote">
-                                       Transforming talent management with <b>AI-driven</b> for smarter, faster HR decisions.
+                                        Transform your business with expert HR and management consultancy, seamlessly integrated with AI for smarter solutions.
                                         </div>
 
                                     </div>
